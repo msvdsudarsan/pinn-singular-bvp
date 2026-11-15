@@ -1,0 +1,110 @@
+PASS Table 2 ex1 hard frac 0.0 median: recomputed 2.9e-05, paper 2.9e-05
+PASS Table 2 ex1 hard frac 0.0 failures: recomputed 0, paper 0
+PASS Table 2 ex1 hard frac 0.3 median: recomputed 7.3e-05, paper 7.3e-05
+PASS Table 2 ex1 hard frac 0.3 failures: recomputed 0, paper 0
+PASS Table 2 ex1 hard frac 0.4 median: recomputed 8.9e-05, paper 8.9e-05
+PASS Table 2 ex1 hard frac 0.4 failures: recomputed 0, paper 0
+PASS Table 2 ex1 hard frac 1.0 median: recomputed 0.0067, paper 0.0067
+PASS Table 2 ex1 hard frac 1.0 failures: recomputed 0, paper 0
+PASS Table 2 ex1 soft frac 0.0 median: recomputed 6.8e-05, paper 6.8e-05
+PASS Table 2 ex1 soft frac 0.0 failures: recomputed 0, paper 0
+PASS Table 2 ex1 soft frac 0.3 median: recomputed 0.00014, paper 0.00014
+PASS Table 2 ex1 soft frac 0.3 failures: recomputed 0, paper 0
+PASS Table 2 ex1 soft frac 0.4 median: recomputed 0.00018, paper 0.00018
+PASS Table 2 ex1 soft frac 0.4 failures: recomputed 0, paper 0
+PASS Table 2 ex1 soft frac 1.0 median: recomputed 0.0074, paper 0.0074
+PASS Table 2 ex1 soft frac 1.0 failures: recomputed 0, paper 0
+PASS Table 2 ex2 hard frac 0.0 median: recomputed 0.0022, paper 0.0022
+PASS Table 2 ex2 hard frac 0.0 failures: recomputed 0, paper 0
+PASS Table 2 ex2 hard frac 0.3 median: recomputed 0.0011, paper 0.0011
+PASS Table 2 ex2 hard frac 0.3 failures: recomputed 0, paper 0
+PASS Table 2 ex2 hard frac 0.4 median: recomputed 0.0006, paper 0.0006
+PASS Table 2 ex2 hard frac 0.4 failures: recomputed 0, paper 0
+PASS Table 2 ex2 hard frac 1.0 median: recomputed 0.03, paper 0.03
+PASS Table 2 ex2 hard frac 1.0 failures: recomputed 1, paper 1
+PASS Table 2 ex2 soft frac 0.0 median: recomputed 0.0059, paper 0.0059
+PASS Table 2 ex2 soft frac 0.0 failures: recomputed 0, paper 0
+PASS Table 2 ex2 soft frac 0.3 median: recomputed 0.0096, paper 0.0096
+PASS Table 2 ex2 soft frac 0.3 failures: recomputed 0, paper 0
+PASS Table 2 ex2 soft frac 0.4 median: recomputed 0.014, paper 0.014
+PASS Table 2 ex2 soft frac 0.4 failures: recomputed 0, paper 0
+PASS Table 2 ex2 soft frac 1.0 median: recomputed 0.85, paper 0.85
+PASS Table 2 ex2 soft frac 1.0 failures: recomputed 10, paper 10
+PASS Table 2 ex3 hard frac 0.0 median: recomputed 6.3e-05, paper 6.3e-05
+PASS Table 2 ex3 hard frac 0.0 failures: recomputed 0, paper 0
+PASS Table 2 ex3 hard frac 0.3 median: recomputed 0.00013, paper 0.00013
+PASS Table 2 ex3 hard frac 0.3 failures: recomputed 0, paper 0
+PASS Table 2 ex3 hard frac 0.4 median: recomputed 0.00011, paper 0.00011
+PASS Table 2 ex3 hard frac 0.4 failures: recomputed 0, paper 0
+PASS Table 2 ex3 hard frac 1.0 median: recomputed 0.0028, paper 0.0028
+PASS Table 2 ex3 hard frac 1.0 failures: recomputed 0, paper 0
+PASS Table 2 ex3 soft frac 0.0 median: recomputed 0.00087, paper 0.00087
+PASS Table 2 ex3 soft frac 0.0 failures: recomputed 0, paper 0
+PASS Table 2 ex3 soft frac 0.3 median: recomputed 0.0022, paper 0.0022
+PASS Table 2 ex3 soft frac 0.3 failures: recomputed 0, paper 0
+PASS Table 2 ex3 soft frac 0.4 median: recomputed 0.0019, paper 0.0019
+PASS Table 2 ex3 soft frac 0.4 failures: recomputed 0, paper 0
+PASS Table 2 ex3 soft frac 1.0 median: recomputed 0.16, paper 0.16
+PASS Table 2 ex3 soft frac 1.0 failures: recomputed 10, paper 10
+PASS Table 2 ex4 hard frac 0.0 median: recomputed 0.00028, paper 0.00028
+PASS Table 2 ex4 hard frac 0.0 failures: recomputed 0, paper 0
+PASS Table 2 ex4 hard frac 0.3 median: recomputed 0.00022, paper 0.00022
+PASS Table 2 ex4 hard frac 0.3 failures: recomputed 0, paper 0
+PASS Table 2 ex4 hard frac 0.4 median: recomputed 0.00031, paper 0.00031
+PASS Table 2 ex4 hard frac 0.4 failures: recomputed 0, paper 0
+PASS Table 2 ex4 hard frac 1.0 median: recomputed 0.012, paper 0.012
+PASS Table 2 ex4 hard frac 1.0 failures: recomputed 0, paper 0
+PASS Table 2 ex4 soft frac 0.0 median: recomputed 0.0016, paper 0.0016
+PASS Table 2 ex4 soft frac 0.0 failures: recomputed 0, paper 0
+PASS Table 2 ex4 soft frac 0.3 median: recomputed 0.0019, paper 0.0019
+PASS Table 2 ex4 soft frac 0.3 failures: recomputed 0, paper 0
+PASS Table 2 ex4 soft frac 0.4 median: recomputed 0.0024, paper 0.0024
+PASS Table 2 ex4 soft frac 0.4 failures: recomputed 0, paper 0
+PASS Table 2 ex4 soft frac 1.0 median: recomputed 0.19, paper 0.19
+PASS Table 2 ex4 soft frac 1.0 failures: recomputed 10, paper 10
+PASS nominal median ('D', 'lbfgs'): recomputed 0.0017, paper 0.0017
+PASS nominal median ('R', 'lbfgs'): recomputed 0.00044, paper 0.00044
+PASS nominal median ('D', 'two'): recomputed 0.0031, paper 0.0031
+PASS nominal median ('R', 'two'): recomputed 0.00059, paper 0.00059
+PASS nominal paired D/R (L-BFGS): recomputed np.float64(3.3), paper 3.3
+PASS nominal paired D/R (two-stage): recomputed np.float64(5.0), paper 5.0
+PASS median time per run, D (L-BFGS only), s: recomputed 10.4, paper 10.4
+PASS median time per run, R (L-BFGS only), s: recomputed 10.1, paper 10.1
+PASS number of parameter combinations: recomputed 15, paper 15
+PASS R lower median than D in all 15 combinations, both optimizers: recomputed True, paper True
+PASS smallest R/D ratio of medians (L-BFGS): recomputed np.float64(0.11), paper 0.11
+PASS largest R/D ratio of medians (L-BFGS): recomputed np.float64(0.66), paper 0.66
+PASS corner (0.8,0.8,0.8): failed runs of 40: recomputed 40, paper 40
+PASS corner (1.2,0.8,0.8): D failures of 20: recomputed 20, paper 20
+PASS corner (1.2,0.8,0.8): R failures of 20: recomputed 14, paper 14
+PASS stress Rab x0.2 paired D/R: recomputed 16, paper 16
+PASS stress Rab x0.1 paired D/R: recomputed 39, paper 39
+PASS stress Rab x0.05 paired D/R: recomputed 122, paper 122
+PASS condition number of A22 at 5% of nominal: recomputed 17.3, paper 17.3
+PASS T=9.6 ms failures (all budgets): recomputed 0, paper 0
+PASS T=12 ms failures (all budgets): recomputed 0, paper 0
+PASS T=14.4 ms, 2000 evaluations: failures of 40: recomputed 40, paper 40
+PASS T=14.4 ms, 8000 evaluations: failures of 40: recomputed 6, paper 6
+PASS T=14.4 ms, 8000 evaluations: reduced-form failures of 20: recomputed 1, paper 1
+PASS enclosure ratio, nominal: minimum: recomputed 39, paper 39
+PASS enclosure ratio, nominal: maximum: recomputed 333, paper 333
+PASS enclosure ratio, failing case: minimum: recomputed np.float64(4.1), paper 4.1
+PASS enclosure ratio, failing case: maximum: recomputed 46, paper 46
+PASS enclosure columns tested: recomputed 48, paper 48
+PASS bound above sampled error in all columns: recomputed True, paper True
+PASS sup / rms residual at nominal, variant R: min: recomputed np.float64(2.2), paper 2.2
+PASS sup / rms residual at nominal, variant R: median: recomputed 4.0, paper 4.0
+PASS sup / rms residual at nominal, variant R: max: recomputed np.float64(5.3), paper 5.3
+PASS sup / rms residual at nominal, variant D: min: recomputed np.float64(2.6), paper 2.6
+PASS sup / rms residual at nominal, variant D: median: recomputed 3.2, paper 3.2
+PASS sup / rms residual at nominal, variant D: max: recomputed np.float64(5.2), paper 5.2
+PASS networks in the mechanism study: recomputed 80, paper 80
+PASS bound holds for all networks: recomputed 80, paper 80
+PASS bound / sampled error: minimum: recomputed 2.9, paper 2.9
+PASS bound / sampled error: maximum: recomputed 140, paper 140
+PASS differential residual of D, nominal: recomputed 0.026, paper 0.026
+PASS differential residual of D, 5% bridge resistance: recomputed 0.21, paper 0.21
+PASS differential residual of R, smallest median: recomputed 0.0095, paper 0.0095
+PASS differential residual of R, largest median: recomputed 0.017, paper 0.017
+
+108 of 108 checks PASS

@@ -1,0 +1,2 @@
+(a) largest |float centre - exact| / radius over 30 points, 3 derivative orders, all outputs: 3.524072919892742e-05
+(b) containment violations: 0 of 2700 ; largest deviation/radius: 0.031339895493497555

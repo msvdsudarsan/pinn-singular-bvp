@@ -1,0 +1,76 @@
+[04:37:26] START proof_verification: python3 proof_verification.py /home/claude/ms/supplement.tex
+[04:37:51] END   proof_verification exit=0
+[04:37:51] START mna_nominal: python3 mna_validate.py
+[04:37:52] END   mna_nominal exit=0
+[04:37:52] START cert_kd_check: python3 cert_kd_check.py
+[04:39:25] END   cert_kd_check exit=0
+[04:39:25] START extA_landscape: python3 extA_landscape.py
+[04:39:25] END   extA_landscape exit=0
+[04:39:25] START orig_examples: python3 original_examples_pinn.py 0 1
+[04:42:08] END   orig_examples exit=0
+[04:42:08] START compare_orig_examples: python3 compare_rerun.py /tmp/clean2/rerun_output/results/orig_examples.jsonl /tmp/clean2/results/original_examples_pinn_results.csv 1e-6
+[04:42:09] END   compare_orig_examples exit=0
+[04:42:09] START orig_sweep: python3 original_examples_sweep_ablation.py sweep
+[04:45:57] END   orig_sweep exit=0
+[04:45:57] START compare_orig_sweep: python3 compare_rerun.py /tmp/clean2/rerun_output/results/orig_sweep.jsonl /tmp/clean2/results/switch_sweep_results.csv 1e-6
+[04:45:57] END   compare_orig_sweep exit=0
+[04:45:57] START orig_ablate: python3 original_examples_sweep_ablation.py ablate 0.3 1 1
+[05:03:15] END   orig_ablate exit=0
+[05:03:15] START compare_orig_ablate: python3 compare_rerun.py /tmp/clean2/rerun_output/results/orig_ablate.jsonl /tmp/clean2/results/activation_width_results.csv 1e-6
+[05:03:15] END   compare_orig_ablate exit=0
+[05:03:15] START case_nominal: python3 sens_run.py /tmp/clean2/rerun_output/results/case_1_1_1.jsonl
+[05:04:03] END   case_nominal exit=0
+[05:04:03] START compare_case_nominal: python3 compare_rerun.py /tmp/clean2/rerun_output/results/case_1_1_1.jsonl /tmp/clean2/results/sensitivity_runs/case_1_1_1.jsonl 1e-6
+[05:04:03] END   compare_case_nominal exit=0
+[05:04:03] START case_failing_corner: python3 sens_run.py /tmp/clean2/rerun_output/results/case_0.8_0.8_0.8.jsonl
+[05:04:48] END   case_failing_corner exit=0
+[05:04:48] START compare_case_failing_corner: python3 compare_rerun.py /tmp/clean2/rerun_output/results/case_0.8_0.8_0.8.jsonl /tmp/clean2/results/sensitivity_runs/case_0.8_0.8_0.8.jsonl 1e-6
+[05:04:48] END   compare_case_failing_corner exit=0
+[05:04:48] START grp_quick: python3 sens_run.py /tmp/clean2/rerun_output/results/grp_0.8_1_1.jsonl
+[05:05:33] END   grp_quick exit=0
+[05:05:33] START compare_grp_quick: python3 compare_rerun.py /tmp/clean2/rerun_output/results/grp_0.8_1_1.jsonl /tmp/clean2/results/group_runs/grp_0.8_1_1.jsonl 1e-6
+[05:05:33] END   compare_grp_quick exit=0
+[05:05:33] START T_quick: python3 sens_run.py /tmp/clean2/rerun_output/results/T_1.2.jsonl
+[05:06:15] END   T_quick exit=0
+[05:06:15] START compare_T_quick: python3 compare_rerun.py /tmp/clean2/rerun_output/results/T_1.2.jsonl /tmp/clean2/results/stress_runs/T_1.2.jsonl 1e-6
+[05:06:15] END   compare_T_quick exit=0
+[05:06:15] START corner_quick: python3 sens_corner.py /tmp/clean2/rerun_output/results/corner_0.8_0.8_0.8.jsonl
+[05:07:37] END   corner_quick exit=0
+[05:07:37] START compare_corner_quick: python3 compare_rerun.py /tmp/clean2/rerun_output/results/corner_0.8_0.8_0.8.jsonl /tmp/clean2/results/stress_runs/corner_0.8_0.8_0.8.jsonl 1e-6
+[05:07:37] END   compare_corner_quick exit=0
+[05:07:37] START horizon_quick: python3 sens_horizon.py /tmp/clean2/rerun_output/results/horizon_T_1.0.jsonl
+[05:12:00] END   horizon_quick exit=0
+[05:12:00] START compare_horizon_quick: python3 compare_rerun.py /tmp/clean2/rerun_output/results/horizon_T_1.0.jsonl /tmp/clean2/results/results_h/T_1.0.jsonl 1e-6
+[05:12:00] END   compare_horizon_quick exit=0
+[05:12:00] START extA_rab1: python3 extA_separation.py 0 1 /tmp/clean2/rerun_output/results/sep_rab1.jsonl
+[05:12:27] END   extA_rab1 exit=0
+[05:12:27] START compare_extA_rab1: python3 compare_rerun.py /tmp/clean2/rerun_output/results/sep_rab1.jsonl /tmp/clean2/results/extA/sep_rab1.jsonl 1e-6
+[05:12:27] END   compare_extA_rab1 exit=0
+[05:12:27] START extA_rab0.5: python3 extA_separation.py 0 1 /tmp/clean2/rerun_output/results/sep_rab0.5.jsonl
+[05:12:52] END   extA_rab0.5 exit=0
+[05:12:52] START compare_extA_rab0.5: python3 compare_rerun.py /tmp/clean2/rerun_output/results/sep_rab0.5.jsonl /tmp/clean2/results/extA/sep_rab0.5.jsonl 1e-6
+[05:12:52] END   compare_extA_rab0.5 exit=0
+[05:12:52] START extA_rab0.2: python3 extA_separation.py 0 1 /tmp/clean2/rerun_output/results/sep_rab0.2.jsonl
+[05:13:18] END   extA_rab0.2 exit=0
+[05:13:18] START compare_extA_rab0.2: python3 compare_rerun.py /tmp/clean2/rerun_output/results/sep_rab0.2.jsonl /tmp/clean2/results/extA/sep_rab0.2.jsonl 1e-6
+[05:13:18] END   compare_extA_rab0.2 exit=0
+[05:13:18] START extA_rab0.05: python3 extA_separation.py 0 1 /tmp/clean2/rerun_output/results/sep_rab0.05.jsonl
+[05:13:46] END   extA_rab0.05 exit=0
+[05:13:46] START compare_extA_rab0.05: python3 compare_rerun.py /tmp/clean2/rerun_output/results/sep_rab0.05.jsonl /tmp/clean2/results/extA/sep_rab0.05.jsonl 1e-6
+[05:13:46] END   compare_extA_rab0.05 exit=0
+[05:13:46] START extB_nominal: python3 extB_adaptive.py 0 1 /tmp/clean2/rerun_output/results/adapt_nominal.jsonl
+[05:14:39] END   extB_nominal exit=0
+[05:14:39] START compare_extB_nominal: python3 compare_rerun.py /tmp/clean2/rerun_output/results/adapt_nominal.jsonl /tmp/clean2/results/extA/adapt_nominal.jsonl 1e-6
+[05:14:39] END   compare_extB_nominal exit=0
+[05:14:39] START extC_n3: python3 extC_pinn.py 0 1 4000 /tmp/clean2/rerun_output/results/ladder_n3.jsonl
+[05:15:22] END   extC_n3 exit=0
+[05:15:22] START compare_extC_n3: python3 compare_rerun.py /tmp/clean2/rerun_output/results/ladder_n3.jsonl /tmp/clean2/results/extA/ladder_n3.jsonl 1e-6
+[05:15:22] END   compare_extC_n3 exit=0
+[05:15:22] START cert_nominal: python3 cert.py /tmp/clean2/rerun_output/results/cert_nominal.jsonl 0 1
+[05:17:30] END   cert_nominal exit=0
+[05:17:30] START compare_cert_nominal: python3 compare_rerun.py /tmp/clean2/rerun_output/results/cert_nominal.jsonl /tmp/clean2/results/cert_nominal.jsonl 1e-6
+[05:17:30] END   compare_cert_nominal exit=0
+[05:17:30] START cert_validate: python3 cert_validate.py
+[05:17:47] END   cert_validate exit=0
+[05:17:47] START paper_values_shipped: python3 check_paper_values.py /tmp/clean2/results
+[05:17:47] END   paper_values_shipped exit=0
