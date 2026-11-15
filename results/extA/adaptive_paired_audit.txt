@@ -1,0 +1,12 @@
+adapt_T14.4.jsonl
+  D adapt vs fixed: n=10 median ratio 1.01 CI [1.00,1.01] adaptive better in 0/10 seeds; max |nfev difference|: 2 (nominal budget 2000)
+  D adaptw vs fixed: n=10 median ratio 1.01 CI [1.00,1.01] adaptive better in 0/10 seeds; max |nfev difference|: 1 (nominal budget 2000)
+  R adapt vs fixed: n=10 median ratio 1.22 CI [1.08,1.36] adaptive better in 0/10 seeds; max |nfev difference|: 1 (nominal budget 2000)
+adapt_nominal.jsonl
+  D adapt vs fixed: n=10 median ratio 1.09 CI [0.93,1.85] adaptive better in 4/10 seeds; max |nfev difference|: 1 (nominal budget 2000)
+  D adaptw vs fixed: n=10 median ratio 1.24 CI [0.95,2.04] adaptive better in 2/10 seeds; max |nfev difference|: 1 (nominal budget 2000)
+  R adapt vs fixed: n=10 median ratio 1.29 CI [1.12,1.76] adaptive better in 1/10 seeds; max |nfev difference|: 1 (nominal budget 2000)
+adapt_rab0.2.jsonl
+  D adapt vs fixed: n=10 median ratio 1.26 CI [1.15,1.33] adaptive better in 1/10 seeds; max |nfev difference|: 1 (nominal budget 2000)
+  D adaptw vs fixed: n=10 median ratio 1.32 CI [0.97,1.43] adaptive better in 2/10 seeds; max |nfev difference|: 1 (nominal budget 2000)
+  R adapt vs fixed: n=10 median ratio 1.75 CI [1.35,2.07] adaptive better in 1/10 seeds; max |nfev difference|: 1 (nominal budget 2000)

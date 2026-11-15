@@ -1,0 +1,21 @@
+RAB 0.05 G1 32.57228421911995 G2 2.2888554662238976 A22inv_scaled 0.7319039437433843 condA22 17.32699813697705
+D 0 1.18e-01 err 1.28e+00 bound 5.13e+00 holds True
+R 0 5.80e-04 err 5.42e-03 bound 3.74e-01 holds True
+D 1 1.35e-01 err 1.38e+00 bound 4.46e+00 holds True
+R 1 5.37e-04 err 5.27e-03 bound 2.70e-01 holds True
+D 2 1.72e-01 err 1.93e+00 bound 6.74e+00 holds True
+R 2 8.83e-04 err 6.56e-03 bound 9.15e-01 holds True
+D 3 1.82e-01 err 2.01e+00 bound 5.93e+00 holds True
+R 3 1.51e-03 err 1.55e-02 bound 5.22e-01 holds True
+D 4 1.83e-01 err 2.02e+00 bound 7.23e+00 holds True
+R 4 9.84e-03 err 9.04e-02 bound 1.97e+00 holds True
+D 5 1.76e-01 err 1.81e+00 bound 7.06e+00 holds True
+R 5 2.14e-03 err 2.29e-02 bound 4.28e-01 holds True
+D 6 1.72e-01 err 1.90e+00 bound 7.52e+00 holds True
+R 6 1.60e-03 err 1.26e-02 bound 9.82e-01 holds True
+D 7 1.87e-01 err 2.09e+00 bound 6.85e+00 holds True
+R 7 1.59e-03 err 2.03e-02 bound 4.40e-01 holds True
+D 8 9.34e-02 err 1.02e+00 bound 5.71e+00 holds True
+R 8 7.55e-04 err 1.00e-02 bound 3.08e-01 holds True
+D 9 1.80e-01 err 2.07e+00 bound 8.38e+00 holds True
+R 9 6.85e-04 err 6.39e-03 bound 3.93e-01 holds True
