@@ -1,0 +1,204 @@
+WARNING: /tmp/full/rerun_output/results already holds records from an earlier run; existing records are resumed or appended, not overwritten. Use a fresh OUT= for a clean run.
+[11:20:50] SKIP  proof_verification (completed earlier in this output directory)
+[11:20:50] SKIP  mna_nominal (completed earlier in this output directory)
+[11:20:50] SKIP  cert_kd_check (completed earlier in this output directory)
+[11:20:50] SKIP  extA_landscape (completed earlier in this output directory)
+[11:20:50] SKIP  orig_examples (completed earlier in this output directory)
+[11:20:50] SKIP  compare_orig_examples (completed earlier in this output directory)
+[11:20:50] SKIP  orig_sweep (completed earlier in this output directory)
+[11:20:50] SKIP  compare_orig_sweep (completed earlier in this output directory)
+[11:20:50] SKIP  orig_ablate (completed earlier in this output directory)
+[11:20:50] SKIP  compare_orig_ablate (completed earlier in this output directory)
+[11:20:50] SKIP  case_1,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  case_0.8,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_0.8,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  case_1.2,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1.2,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  case_1,0.8,1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1,0.8,1 (completed earlier in this output directory)
+[11:20:50] SKIP  case_1,1.2,1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1,1.2,1 (completed earlier in this output directory)
+[11:20:50] SKIP  case_1,1,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1,1,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  case_1,1,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1,1,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  case_0.8,0.8,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_0.8,0.8,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  case_0.8,0.8,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_0.8,0.8,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  case_0.8,1.2,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_0.8,1.2,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  case_0.8,1.2,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_0.8,1.2,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  case_1.2,0.8,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1.2,0.8,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  case_1.2,0.8,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1.2,0.8,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  case_1.2,1.2,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1.2,1.2,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  case_1.2,1.2,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1.2,1.2,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  grp_0.8,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_grp_0.8,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  grp_1.2,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_grp_1.2,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  grp_1,0.8,1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_grp_1,0.8,1 (completed earlier in this output directory)
+[11:20:50] SKIP  grp_1,1.2,1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_grp_1,1.2,1 (completed earlier in this output directory)
+[11:20:50] SKIP  grp_1,1,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_grp_1,1,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  grp_1,1,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_grp_1,1,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  rab_0.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_rab_0.2 (completed earlier in this output directory)
+[11:20:50] SKIP  rab_0.1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_rab_0.1 (completed earlier in this output directory)
+[11:20:50] SKIP  rab_0.05 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_rab_0.05 (completed earlier in this output directory)
+[11:20:50] SKIP  T_0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_T_0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  T_1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_T_1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  corner_0.8,0.8,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_corner_0.8,0.8,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  corner_1.2,0.8,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_corner_1.2,0.8,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  horizon_0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_horizon_0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  horizon_1.0 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_horizon_1.0 (completed earlier in this output directory)
+[11:20:50] SKIP  horizon_1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_horizon_1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  horizon_1.5 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_horizon_1.5 (completed earlier in this output directory)
+[11:20:50] SKIP  extA_rab1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_extA_rab1 (completed earlier in this output directory)
+[11:20:50] SKIP  extA_rab0.5 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_extA_rab0.5 (completed earlier in this output directory)
+[11:20:50] SKIP  extA_rab0.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_extA_rab0.2 (completed earlier in this output directory)
+[11:20:50] SKIP  extA_rab0.05 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_extA_rab0.05 (completed earlier in this output directory)
+[11:20:50] SKIP  extB_nominal (completed earlier in this output directory)
+[11:20:50] SKIP  compare_extB_nominal (completed earlier in this output directory)
+[11:20:50] SKIP  extB_rab0.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_extB_rab0.2 (completed earlier in this output directory)
+[11:20:50] SKIP  extB_T14.4 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_extB_T14.4 (completed earlier in this output directory)
+[11:20:50] SKIP  extC_n3 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_extC_n3 (completed earlier in this output directory)
+[11:20:50] SKIP  extC_n6 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_extC_n6 (completed earlier in this output directory)
+[11:20:50] START extC_n10: python3 extC_pinn.py 0 10 16000 /tmp/full/rerun_output/results/ladder_n10.jsonl
+[11:49:22] END   extC_n10 exit=0
+[11:49:22] START compare_extC_n10: python3 compare_rerun.py /tmp/full/rerun_output/results/ladder_n10.jsonl /tmp/full/results/extA/ladder_n10.jsonl 1e-6
+[11:49:22] END   compare_extC_n10 exit=0
+[11:49:22] SKIP  cert_nominal (completed earlier in this output directory)
+[11:49:22] SKIP  compare_cert_nominal (completed earlier in this output directory)
+[11:49:22] SKIP  cert_corner (completed earlier in this output directory)
+[11:49:22] SKIP  compare_cert_corner (completed earlier in this output directory)
+[11:49:22] SKIP  cert_validate (completed earlier in this output directory)
+[11:49:22] SKIP  paper_values_shipped (completed earlier in this output directory)
+RESULT: PASS  [FULL]  total 1714s
+proof_verification	0	26
+mna_nominal	0	1
+cert_kd_check	0	88
+extA_landscape	0	1
+orig_examples	0	1391
+compare_orig_examples	0	0
+orig_sweep	0	2193
+compare_orig_sweep	0	0
+orig_ablate	0	2998
+compare_orig_ablate	0	0
+case_1,1,1	0	385
+compare_case_1,1,1	0	0
+case_0.8,1,1	0	233
+compare_case_0.8,1,1	0	0
+grp_0.8,1,1	0	332
+compare_grp_0.8,1,1	0	0
+case_1.2,1,1	0	341
+compare_case_1.2,1,1	0	0
+grp_1.2,1,1	0	341
+compare_grp_1.2,1,1	0	0
+case_1,0.8,1	0	342
+compare_case_1,0.8,1	0	0
+grp_1,0.8,1	0	345
+compare_grp_1,0.8,1	0	0
+case_1,1.2,1	0	337
+compare_case_1,1.2,1	0	0
+grp_1,1.2,1	0	331
+compare_grp_1,1.2,1	0	0
+case_1,1,0.8	0	339
+compare_case_1,1,0.8	0	0
+grp_1,1,0.8	0	334
+compare_grp_1,1,0.8	0	0
+case_1,1,1.2	0	338
+compare_case_1,1,1.2	0	0
+grp_1,1,1.2	0	340
+compare_grp_1,1,1.2	0	0
+case_0.8,0.8,0.8	0	348
+compare_case_0.8,0.8,0.8	0	0
+rab_0.2	0	348
+compare_rab_0.2	0	0
+case_0.8,0.8,1.2	0	343
+compare_case_0.8,0.8,1.2	0	0
+rab_0.1	0	349
+compare_rab_0.1	0	0
+case_0.8,1.2,0.8	0	348
+compare_case_0.8,1.2,0.8	0	0
+rab_0.05	0	357
+compare_rab_0.05	0	0
+case_0.8,1.2,1.2	0	347
+compare_case_0.8,1.2,1.2	0	0
+T_0.8	0	342
+compare_T_0.8	0	1
+case_1.2,0.8,0.8	0	335
+compare_case_1.2,0.8,0.8	0	0
+T_1.2	0	335
+compare_T_1.2	0	0
+case_1.2,0.8,1.2	0	343
+compare_case_1.2,0.8,1.2	0	0
+case_1.2,1.2,0.8	0	333
+compare_case_1.2,1.2,0.8	0	0
+corner_0.8,0.8,0.8	0	755
+compare_corner_0.8,0.8,0.8	0	0
+case_1.2,1.2,1.2	0	342
+compare_case_1.2,1.2,1.2	0	0
+cert_validate	0	18
+paper_values_shipped	0	0
+corner_1.2,0.8,0.8	0	802
+compare_corner_1.2,0.8,0.8	0	0
+horizon_0.8	0	635
+compare_horizon_0.8	0	0
+horizon_1.5	0	2394
+compare_horizon_1.5	0	0
+extA_rab1	0	200
+compare_extA_rab1	0	0
+extA_rab0.5	0	201
+compare_extA_rab0.5	0	0
+extA_rab0.2	0	204
+compare_extA_rab0.2	0	0
+extA_rab0.05	0	202
+compare_extA_rab0.05	0	0
+horizon_1.0	0	2336
+compare_horizon_1.0	0	0
+extB_nominal	0	460
+compare_extB_nominal	0	0
+extB_rab0.2	0	457
+compare_extB_rab0.2	0	0
+extB_T14.4	0	465
+compare_extB_T14.4	0	1
+horizon_1.2	0	2265
+compare_horizon_1.2	0	0
+extC_n6	0	1461
+compare_extC_n6	0	0
+extC_n3	0	380
+compare_extC_n3	0	0
+cert_nominal	0	192
+compare_cert_nominal	0	0
+cert_corner	0	150
+compare_cert_corner	0	0
+extC_n10	0	1712
+compare_extC_n10	0	0

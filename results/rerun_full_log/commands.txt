@@ -1,0 +1,314 @@
+[05:20:24] START proof_verification: python3 proof_verification.py /home/claude/ms/supplement.tex
+[05:20:50] END   proof_verification exit=0
+[05:20:50] START mna_nominal: python3 mna_validate.py
+[05:20:51] END   mna_nominal exit=0
+[05:20:51] START cert_kd_check: python3 cert_kd_check.py
+[05:22:19] END   cert_kd_check exit=0
+[05:22:19] START extA_landscape: python3 extA_landscape.py
+[05:22:20] END   extA_landscape exit=0
+[05:22:20] START orig_examples: python3 original_examples_pinn.py 0 10
+[05:45:31] END   orig_examples exit=0
+[05:45:31] START compare_orig_examples: python3 compare_rerun.py /tmp/full/rerun_output/results/orig_examples.jsonl /tmp/full/results/original_examples_pinn_results.csv 1e-6
+[05:45:31] END   compare_orig_examples exit=0
+[05:45:31] START orig_sweep: python3 original_examples_sweep_ablation.py sweep
+[06:22:04] END   orig_sweep exit=0
+[06:22:04] START compare_orig_sweep: python3 compare_rerun.py /tmp/full/rerun_output/results/orig_sweep.jsonl /tmp/full/results/switch_sweep_results.csv 1e-6
+[06:22:04] END   compare_orig_sweep exit=0
+[06:22:04] START orig_ablate: python3 original_examples_sweep_ablation.py ablate 0.3 4 2
+[07:12:02] END   orig_ablate exit=0
+[07:12:02] START compare_orig_ablate: python3 compare_rerun.py /tmp/full/rerun_output/results/orig_ablate.jsonl /tmp/full/results/activation_width_results.csv 1e-6
+[07:12:02] END   compare_orig_ablate exit=0
+[07:12:02] START case_1,1,1: python3 sens_run.py /tmp/full/rerun_output/results/case_1_1_1.jsonl
+[07:18:27] END   case_1,1,1 exit=0
+[07:18:27] START compare_case_1,1,1: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1_1_1.jsonl /tmp/full/results/sensitivity_runs/case_1_1_1.jsonl 1e-6
+[07:18:27] END   compare_case_1,1,1 exit=0
+[07:18:27] START case_0.8,1,1: python3 sens_run.py /tmp/full/rerun_output/results/case_0.8_1_1.jsonl
+[07:20:42] SKIP  proof_verification (completed earlier in this output directory)
+[07:20:42] SKIP  mna_nominal (completed earlier in this output directory)
+[07:20:42] SKIP  cert_kd_check (completed earlier in this output directory)
+[07:20:42] SKIP  orig_examples (completed earlier in this output directory)
+[07:20:42] SKIP  compare_orig_examples (completed earlier in this output directory)
+[07:20:42] SKIP  orig_sweep (completed earlier in this output directory)
+[07:20:42] SKIP  compare_orig_sweep (completed earlier in this output directory)
+[07:20:42] SKIP  orig_ablate (completed earlier in this output directory)
+[07:20:42] SKIP  compare_orig_ablate (completed earlier in this output directory)
+[07:20:42] SKIP  case_1,1,1 (completed earlier in this output directory)
+[07:20:42] SKIP  compare_case_1,1,1 (completed earlier in this output directory)
+[07:20:42] START case_0.8,1,1: python3 sens_run.py /tmp/full/rerun_output/results/case_0.8_1_1.jsonl
+[07:20:43] SKIP  extA_landscape (completed earlier in this output directory)
+[07:20:43] START grp_0.8,1,1: python3 sens_run.py /tmp/full/rerun_output/results/grp_0.8_1_1.jsonl
+[07:24:35] END   case_0.8,1,1 exit=0
+[07:24:35] START compare_case_0.8,1,1: python3 compare_rerun.py /tmp/full/rerun_output/results/case_0.8_1_1.jsonl /tmp/full/results/sensitivity_runs/case_0.8_1_1.jsonl 1e-6
+[07:24:35] END   compare_case_0.8,1,1 exit=0
+[07:24:35] START case_1.2,1,1: python3 sens_run.py /tmp/full/rerun_output/results/case_1.2_1_1.jsonl
+[07:26:15] END   grp_0.8,1,1 exit=0
+[07:26:15] START compare_grp_0.8,1,1: python3 compare_rerun.py /tmp/full/rerun_output/results/grp_0.8_1_1.jsonl /tmp/full/results/group_runs/grp_0.8_1_1.jsonl 1e-6
+[07:26:15] END   compare_grp_0.8,1,1 exit=0
+[07:26:15] START grp_1.2,1,1: python3 sens_run.py /tmp/full/rerun_output/results/grp_1.2_1_1.jsonl
+[07:30:16] END   case_1.2,1,1 exit=0
+[07:30:16] START compare_case_1.2,1,1: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1.2_1_1.jsonl /tmp/full/results/sensitivity_runs/case_1.2_1_1.jsonl 1e-6
+[07:30:16] END   compare_case_1.2,1,1 exit=0
+[07:30:16] START case_1,0.8,1: python3 sens_run.py /tmp/full/rerun_output/results/case_1_0.8_1.jsonl
+[07:31:56] END   grp_1.2,1,1 exit=0
+[07:31:56] START compare_grp_1.2,1,1: python3 compare_rerun.py /tmp/full/rerun_output/results/grp_1.2_1_1.jsonl /tmp/full/results/group_runs/grp_1.2_1_1.jsonl 1e-6
+[07:31:56] END   compare_grp_1.2,1,1 exit=0
+[07:31:56] START grp_1,0.8,1: python3 sens_run.py /tmp/full/rerun_output/results/grp_1_0.8_1.jsonl
+[07:35:58] END   case_1,0.8,1 exit=0
+[07:35:58] START compare_case_1,0.8,1: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1_0.8_1.jsonl /tmp/full/results/sensitivity_runs/case_1_0.8_1.jsonl 1e-6
+[07:35:58] END   compare_case_1,0.8,1 exit=0
+[07:35:58] START case_1,1.2,1: python3 sens_run.py /tmp/full/rerun_output/results/case_1_1.2_1.jsonl
+[07:37:41] END   grp_1,0.8,1 exit=0
+[07:37:41] START compare_grp_1,0.8,1: python3 compare_rerun.py /tmp/full/rerun_output/results/grp_1_0.8_1.jsonl /tmp/full/results/group_runs/grp_1_0.8_1.jsonl 1e-6
+[07:37:41] END   compare_grp_1,0.8,1 exit=0
+[07:37:41] START grp_1,1.2,1: python3 sens_run.py /tmp/full/rerun_output/results/grp_1_1.2_1.jsonl
+[07:41:35] END   case_1,1.2,1 exit=0
+[07:41:35] START compare_case_1,1.2,1: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1_1.2_1.jsonl /tmp/full/results/sensitivity_runs/case_1_1.2_1.jsonl 1e-6
+[07:41:35] END   compare_case_1,1.2,1 exit=0
+[07:41:35] START case_1,1,0.8: python3 sens_run.py /tmp/full/rerun_output/results/case_1_1_0.8.jsonl
+[07:43:12] END   grp_1,1.2,1 exit=0
+[07:43:12] START compare_grp_1,1.2,1: python3 compare_rerun.py /tmp/full/rerun_output/results/grp_1_1.2_1.jsonl /tmp/full/results/group_runs/grp_1_1.2_1.jsonl 1e-6
+[07:43:12] END   compare_grp_1,1.2,1 exit=0
+[07:43:12] START grp_1,1,0.8: python3 sens_run.py /tmp/full/rerun_output/results/grp_1_1_0.8.jsonl
+[07:47:14] END   case_1,1,0.8 exit=0
+[07:47:14] START compare_case_1,1,0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1_1_0.8.jsonl /tmp/full/results/sensitivity_runs/case_1_1_0.8.jsonl 1e-6
+[07:47:14] END   compare_case_1,1,0.8 exit=0
+[07:47:14] START case_1,1,1.2: python3 sens_run.py /tmp/full/rerun_output/results/case_1_1_1.2.jsonl
+[07:48:46] END   grp_1,1,0.8 exit=0
+[07:48:46] START compare_grp_1,1,0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/grp_1_1_0.8.jsonl /tmp/full/results/group_runs/grp_1_1_0.8.jsonl 1e-6
+[07:48:46] END   compare_grp_1,1,0.8 exit=0
+[07:48:46] START grp_1,1,1.2: python3 sens_run.py /tmp/full/rerun_output/results/grp_1_1_1.2.jsonl
+[07:52:52] END   case_1,1,1.2 exit=0
+[07:52:52] START compare_case_1,1,1.2: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1_1_1.2.jsonl /tmp/full/results/sensitivity_runs/case_1_1_1.2.jsonl 1e-6
+[07:52:52] END   compare_case_1,1,1.2 exit=0
+[07:52:52] START case_0.8,0.8,0.8: python3 sens_run.py /tmp/full/rerun_output/results/case_0.8_0.8_0.8.jsonl
+[07:54:26] END   grp_1,1,1.2 exit=0
+[07:54:26] START compare_grp_1,1,1.2: python3 compare_rerun.py /tmp/full/rerun_output/results/grp_1_1_1.2.jsonl /tmp/full/results/group_runs/grp_1_1_1.2.jsonl 1e-6
+[07:54:26] END   compare_grp_1,1,1.2 exit=0
+[07:54:26] START rab_0.2: python3 sens_run.py /tmp/full/rerun_output/results/rab_0.2.jsonl
+[07:58:40] END   case_0.8,0.8,0.8 exit=0
+[07:58:40] START compare_case_0.8,0.8,0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/case_0.8_0.8_0.8.jsonl /tmp/full/results/sensitivity_runs/case_0.8_0.8_0.8.jsonl 1e-6
+[07:58:40] END   compare_case_0.8,0.8,0.8 exit=0
+[07:58:40] START case_0.8,0.8,1.2: python3 sens_run.py /tmp/full/rerun_output/results/case_0.8_0.8_1.2.jsonl
+[08:00:14] END   rab_0.2 exit=0
+[08:00:14] START compare_rab_0.2: python3 compare_rerun.py /tmp/full/rerun_output/results/rab_0.2.jsonl /tmp/full/results/stress_runs/rab_0.2.jsonl 1e-6
+[08:00:14] END   compare_rab_0.2 exit=0
+[08:00:14] START rab_0.1: python3 sens_run.py /tmp/full/rerun_output/results/rab_0.1.jsonl
+[08:04:23] END   case_0.8,0.8,1.2 exit=0
+[08:04:23] START compare_case_0.8,0.8,1.2: python3 compare_rerun.py /tmp/full/rerun_output/results/case_0.8_0.8_1.2.jsonl /tmp/full/results/sensitivity_runs/case_0.8_0.8_1.2.jsonl 1e-6
+[08:04:23] END   compare_case_0.8,0.8,1.2 exit=0
+[08:04:23] START case_0.8,1.2,0.8: python3 sens_run.py /tmp/full/rerun_output/results/case_0.8_1.2_0.8.jsonl
+[08:06:03] END   rab_0.1 exit=0
+[08:06:03] START compare_rab_0.1: python3 compare_rerun.py /tmp/full/rerun_output/results/rab_0.1.jsonl /tmp/full/results/stress_runs/rab_0.1.jsonl 1e-6
+[08:06:03] END   compare_rab_0.1 exit=0
+[08:06:03] START rab_0.05: python3 sens_run.py /tmp/full/rerun_output/results/rab_0.05.jsonl
+[08:10:11] END   case_0.8,1.2,0.8 exit=0
+[08:10:11] START compare_case_0.8,1.2,0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/case_0.8_1.2_0.8.jsonl /tmp/full/results/sensitivity_runs/case_0.8_1.2_0.8.jsonl 1e-6
+[08:10:11] END   compare_case_0.8,1.2,0.8 exit=0
+[08:10:11] START case_0.8,1.2,1.2: python3 sens_run.py /tmp/full/rerun_output/results/case_0.8_1.2_1.2.jsonl
+[08:12:00] END   rab_0.05 exit=0
+[08:12:00] START compare_rab_0.05: python3 compare_rerun.py /tmp/full/rerun_output/results/rab_0.05.jsonl /tmp/full/results/stress_runs/rab_0.05.jsonl 1e-6
+[08:12:00] END   compare_rab_0.05 exit=0
+[08:12:00] START T_0.8: python3 sens_run.py /tmp/full/rerun_output/results/T_0.8.jsonl
+[08:15:58] END   case_0.8,1.2,1.2 exit=0
+[08:15:58] START compare_case_0.8,1.2,1.2: python3 compare_rerun.py /tmp/full/rerun_output/results/case_0.8_1.2_1.2.jsonl /tmp/full/results/sensitivity_runs/case_0.8_1.2_1.2.jsonl 1e-6
+[08:15:58] END   compare_case_0.8,1.2,1.2 exit=0
+[08:15:58] START case_1.2,0.8,0.8: python3 sens_run.py /tmp/full/rerun_output/results/case_1.2_0.8_0.8.jsonl
+[08:17:42] END   T_0.8 exit=0
+[08:17:42] START compare_T_0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/T_0.8.jsonl /tmp/full/results/stress_runs/T_0.8.jsonl 1e-6
+[08:17:43] END   compare_T_0.8 exit=0
+[08:17:43] START T_1.2: python3 sens_run.py /tmp/full/rerun_output/results/T_1.2.jsonl
+[08:21:33] END   case_1.2,0.8,0.8 exit=0
+[08:21:33] START compare_case_1.2,0.8,0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1.2_0.8_0.8.jsonl /tmp/full/results/sensitivity_runs/case_1.2_0.8_0.8.jsonl 1e-6
+[08:21:33] END   compare_case_1.2,0.8,0.8 exit=0
+[08:21:33] START case_1.2,0.8,1.2: python3 sens_run.py /tmp/full/rerun_output/results/case_1.2_0.8_1.2.jsonl
+[08:23:18] END   T_1.2 exit=0
+[08:23:18] START compare_T_1.2: python3 compare_rerun.py /tmp/full/rerun_output/results/T_1.2.jsonl /tmp/full/results/stress_runs/T_1.2.jsonl 1e-6
+[08:23:18] END   compare_T_1.2 exit=0
+[08:23:18] START corner_0.8,0.8,0.8: python3 sens_corner.py /tmp/full/rerun_output/results/corner_0.8_0.8_0.8.jsonl
+[08:27:16] END   case_1.2,0.8,1.2 exit=0
+[08:27:16] START compare_case_1.2,0.8,1.2: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1.2_0.8_1.2.jsonl /tmp/full/results/sensitivity_runs/case_1.2_0.8_1.2.jsonl 1e-6
+[08:27:16] END   compare_case_1.2,0.8,1.2 exit=0
+[08:27:16] START case_1.2,1.2,0.8: python3 sens_run.py /tmp/full/rerun_output/results/case_1.2_1.2_0.8.jsonl
+[08:32:49] END   case_1.2,1.2,0.8 exit=0
+[08:32:49] START compare_case_1.2,1.2,0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1.2_1.2_0.8.jsonl /tmp/full/results/sensitivity_runs/case_1.2_1.2_0.8.jsonl 1e-6
+[08:32:49] END   compare_case_1.2,1.2,0.8 exit=0
+[08:32:49] START case_1.2,1.2,1.2: python3 sens_run.py /tmp/full/rerun_output/results/case_1.2_1.2_1.2.jsonl
+[08:35:53] END   corner_0.8,0.8,0.8 exit=0
+[08:35:53] START compare_corner_0.8,0.8,0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/corner_0.8_0.8_0.8.jsonl /tmp/full/results/stress_runs/corner_0.8_0.8_0.8.jsonl 1e-6
+[08:35:53] END   compare_corner_0.8,0.8,0.8 exit=0
+[08:35:53] START corner_1.2,0.8,0.8: python3 sens_corner.py /tmp/full/rerun_output/results/corner_1.2_0.8_0.8.jsonl
+[08:38:31] END   case_1.2,1.2,1.2 exit=0
+[08:38:31] START compare_case_1.2,1.2,1.2: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1.2_1.2_1.2.jsonl /tmp/full/results/sensitivity_runs/case_1.2_1.2_1.2.jsonl 1e-6
+[08:38:31] END   compare_case_1.2,1.2,1.2 exit=0
+[08:38:31] START cert_validate: python3 cert_validate.py
+[08:38:49] END   cert_validate exit=0
+[08:38:49] START paper_values_shipped: python3 check_paper_values.py /tmp/full/results
+[08:38:49] END   paper_values_shipped exit=0
+[08:49:15] END   corner_1.2,0.8,0.8 exit=0
+[08:49:15] START compare_corner_1.2,0.8,0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/corner_1.2_0.8_0.8.jsonl /tmp/full/results/stress_runs/corner_1.2_0.8_0.8.jsonl 1e-6
+[08:49:15] END   compare_corner_1.2,0.8,0.8 exit=0
+[08:49:15] START horizon_0.8: python3 sens_horizon.py /tmp/full/rerun_output/results/horizon_T_0.8.jsonl
+[09:12:08] SKIP  extA_landscape (completed earlier in this output directory)
+[09:12:08] START horizon_1.5: python3 sens_horizon.py /tmp/full/rerun_output/results/horizon_T_1.5.jsonl
+[09:20:47] START horizon_0.8: python3 sens_horizon.py /tmp/full/rerun_output/results/horizon_T_0.8.jsonl
+[09:31:22] END   horizon_0.8 exit=0
+[09:31:22] START compare_horizon_0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/horizon_T_0.8.jsonl /tmp/full/results/results_h/T_0.8.jsonl 1e-6
+[09:31:22] END   compare_horizon_0.8 exit=0
+[09:31:22] START horizon_1.0: python3 sens_horizon.py /tmp/full/rerun_output/results/horizon_T_1.0.jsonl
+[09:52:02] END   horizon_1.5 exit=0
+[09:52:02] START compare_horizon_1.5: python3 compare_rerun.py /tmp/full/rerun_output/results/horizon_T_1.5.jsonl /tmp/full/results/results_h/T_1.5.jsonl 1e-6
+[09:52:02] END   compare_horizon_1.5 exit=0
+[09:52:02] START extA_rab1: python3 extA_separation.py 0 10 /tmp/full/rerun_output/results/sep_rab1.jsonl
+[09:55:22] END   extA_rab1 exit=0
+[09:55:22] START compare_extA_rab1: python3 compare_rerun.py /tmp/full/rerun_output/results/sep_rab1.jsonl /tmp/full/results/extA/sep_rab1.jsonl 1e-6
+[09:55:22] END   compare_extA_rab1 exit=0
+[09:55:22] START extA_rab0.5: python3 extA_separation.py 0 10 /tmp/full/rerun_output/results/sep_rab0.5.jsonl
+[09:58:43] END   extA_rab0.5 exit=0
+[09:58:43] START compare_extA_rab0.5: python3 compare_rerun.py /tmp/full/rerun_output/results/sep_rab0.5.jsonl /tmp/full/results/extA/sep_rab0.5.jsonl 1e-6
+[09:58:43] END   compare_extA_rab0.5 exit=0
+[09:58:43] START extA_rab0.2: python3 extA_separation.py 0 10 /tmp/full/rerun_output/results/sep_rab0.2.jsonl
+[10:02:07] END   extA_rab0.2 exit=0
+[10:02:07] START compare_extA_rab0.2: python3 compare_rerun.py /tmp/full/rerun_output/results/sep_rab0.2.jsonl /tmp/full/results/extA/sep_rab0.2.jsonl 1e-6
+[10:02:07] END   compare_extA_rab0.2 exit=0
+[10:02:07] START extA_rab0.05: python3 extA_separation.py 0 10 /tmp/full/rerun_output/results/sep_rab0.05.jsonl
+[10:05:29] END   extA_rab0.05 exit=0
+[10:05:29] START compare_extA_rab0.05: python3 compare_rerun.py /tmp/full/rerun_output/results/sep_rab0.05.jsonl /tmp/full/results/extA/sep_rab0.05.jsonl 1e-6
+[10:05:29] END   compare_extA_rab0.05 exit=0
+[10:05:29] START extB_nominal: python3 extB_adaptive.py 0 10 /tmp/full/rerun_output/results/adapt_nominal.jsonl
+[10:10:18] END   horizon_1.0 exit=0
+[10:10:18] START compare_horizon_1.0: python3 compare_rerun.py /tmp/full/rerun_output/results/horizon_T_1.0.jsonl /tmp/full/results/results_h/T_1.0.jsonl 1e-6
+[10:10:18] END   compare_horizon_1.0 exit=0
+[10:10:18] START horizon_1.2: python3 sens_horizon.py /tmp/full/rerun_output/results/horizon_T_1.2.jsonl
+[10:13:09] END   extB_nominal exit=0
+[10:13:09] START compare_extB_nominal: python3 compare_rerun.py /tmp/full/rerun_output/results/adapt_nominal.jsonl /tmp/full/results/extA/adapt_nominal.jsonl 1e-6
+[10:13:09] END   compare_extB_nominal exit=0
+[10:13:09] START extB_rab0.2: python3 extB_adaptive.py 0 10 /tmp/full/rerun_output/results/adapt_rab0.2.jsonl
+[10:20:46] END   extB_rab0.2 exit=0
+[10:20:46] START compare_extB_rab0.2: python3 compare_rerun.py /tmp/full/rerun_output/results/adapt_rab0.2.jsonl /tmp/full/results/extA/adapt_rab0.2.jsonl 1e-6
+[10:20:46] END   compare_extB_rab0.2 exit=0
+[10:20:46] START extB_T14.4: python3 extB_adaptive.py 0 10 /tmp/full/rerun_output/results/adapt_T14.4.jsonl
+[10:28:31] END   extB_T14.4 exit=0
+[10:28:31] START compare_extB_T14.4: python3 compare_rerun.py /tmp/full/rerun_output/results/adapt_T14.4.jsonl /tmp/full/results/extA/adapt_T14.4.jsonl 1e-6
+[10:28:32] END   compare_extB_T14.4 exit=0
+[10:28:32] START extC_n6: python3 extC_pinn.py 0 10 16000 /tmp/full/rerun_output/results/ladder_n6.jsonl
+[10:48:03] END   horizon_1.2 exit=0
+[10:48:03] START compare_horizon_1.2: python3 compare_rerun.py /tmp/full/rerun_output/results/horizon_T_1.2.jsonl /tmp/full/results/results_h/T_1.2.jsonl 1e-6
+[10:48:03] END   compare_horizon_1.2 exit=0
+[10:48:03] START extC_n3: python3 extC_pinn.py 0 10 4000 /tmp/full/rerun_output/results/ladder_n3.jsonl
+[10:52:53] END   extC_n6 exit=0
+[10:52:53] START compare_extC_n6: python3 compare_rerun.py /tmp/full/rerun_output/results/ladder_n6.jsonl /tmp/full/results/extA/ladder_n6.jsonl 1e-6
+[10:52:53] END   compare_extC_n6 exit=0
+[10:52:53] START cert_nominal: python3 cert.py /tmp/full/rerun_output/results/cert_nominal.jsonl 0 1 2 3 4
+[10:54:23] END   extC_n3 exit=0
+[10:54:23] START compare_extC_n3: python3 compare_rerun.py /tmp/full/rerun_output/results/ladder_n3.jsonl /tmp/full/results/extA/ladder_n3.jsonl 1e-6
+[10:54:23] END   compare_extC_n3 exit=0
+[10:54:23] START extC_n10: python3 extC_pinn.py 0 10 16000 /tmp/full/rerun_output/results/ladder_n10.jsonl
+[10:56:05] END   cert_nominal exit=0
+[10:56:05] START compare_cert_nominal: python3 compare_rerun.py /tmp/full/rerun_output/results/cert_nominal.jsonl /tmp/full/results/cert_nominal.jsonl 1e-6
+[10:56:05] END   compare_cert_nominal exit=0
+[10:56:05] START cert_corner: python3 cert.py /tmp/full/rerun_output/results/cert_corner.jsonl 0 1 2
+[10:58:35] END   cert_corner exit=0
+[10:58:35] START compare_cert_corner: python3 compare_rerun.py /tmp/full/rerun_output/results/cert_corner.jsonl /tmp/full/results/cert_corner.jsonl 1e-6
+[10:58:35] END   compare_cert_corner exit=0
+[11:20:50] SKIP  proof_verification (completed earlier in this output directory)
+[11:20:50] SKIP  mna_nominal (completed earlier in this output directory)
+[11:20:50] SKIP  cert_kd_check (completed earlier in this output directory)
+[11:20:50] SKIP  extA_landscape (completed earlier in this output directory)
+[11:20:50] SKIP  orig_examples (completed earlier in this output directory)
+[11:20:50] SKIP  compare_orig_examples (completed earlier in this output directory)
+[11:20:50] SKIP  orig_sweep (completed earlier in this output directory)
+[11:20:50] SKIP  compare_orig_sweep (completed earlier in this output directory)
+[11:20:50] SKIP  orig_ablate (completed earlier in this output directory)
+[11:20:50] SKIP  compare_orig_ablate (completed earlier in this output directory)
+[11:20:50] SKIP  case_1,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  case_0.8,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_0.8,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  case_1.2,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1.2,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  case_1,0.8,1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1,0.8,1 (completed earlier in this output directory)
+[11:20:50] SKIP  case_1,1.2,1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1,1.2,1 (completed earlier in this output directory)
+[11:20:50] SKIP  case_1,1,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1,1,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  case_1,1,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1,1,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  case_0.8,0.8,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_0.8,0.8,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  case_0.8,0.8,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_0.8,0.8,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  case_0.8,1.2,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_0.8,1.2,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  case_0.8,1.2,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_0.8,1.2,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  case_1.2,0.8,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1.2,0.8,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  case_1.2,0.8,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1.2,0.8,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  case_1.2,1.2,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1.2,1.2,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  case_1.2,1.2,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_case_1.2,1.2,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  grp_0.8,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_grp_0.8,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  grp_1.2,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_grp_1.2,1,1 (completed earlier in this output directory)
+[11:20:50] SKIP  grp_1,0.8,1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_grp_1,0.8,1 (completed earlier in this output directory)
+[11:20:50] SKIP  grp_1,1.2,1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_grp_1,1.2,1 (completed earlier in this output directory)
+[11:20:50] SKIP  grp_1,1,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_grp_1,1,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  grp_1,1,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_grp_1,1,1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  rab_0.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_rab_0.2 (completed earlier in this output directory)
+[11:20:50] SKIP  rab_0.1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_rab_0.1 (completed earlier in this output directory)
+[11:20:50] SKIP  rab_0.05 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_rab_0.05 (completed earlier in this output directory)
+[11:20:50] SKIP  T_0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_T_0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  T_1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_T_1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  corner_0.8,0.8,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_corner_0.8,0.8,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  corner_1.2,0.8,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_corner_1.2,0.8,0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  horizon_0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_horizon_0.8 (completed earlier in this output directory)
+[11:20:50] SKIP  horizon_1.0 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_horizon_1.0 (completed earlier in this output directory)
+[11:20:50] SKIP  horizon_1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_horizon_1.2 (completed earlier in this output directory)
+[11:20:50] SKIP  horizon_1.5 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_horizon_1.5 (completed earlier in this output directory)
+[11:20:50] SKIP  extA_rab1 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_extA_rab1 (completed earlier in this output directory)
+[11:20:50] SKIP  extA_rab0.5 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_extA_rab0.5 (completed earlier in this output directory)
+[11:20:50] SKIP  extA_rab0.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_extA_rab0.2 (completed earlier in this output directory)
+[11:20:50] SKIP  extA_rab0.05 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_extA_rab0.05 (completed earlier in this output directory)
+[11:20:50] SKIP  extB_nominal (completed earlier in this output directory)
+[11:20:50] SKIP  compare_extB_nominal (completed earlier in this output directory)
+[11:20:50] SKIP  extB_rab0.2 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_extB_rab0.2 (completed earlier in this output directory)
+[11:20:50] SKIP  extB_T14.4 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_extB_T14.4 (completed earlier in this output directory)
+[11:20:50] SKIP  extC_n3 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_extC_n3 (completed earlier in this output directory)
+[11:20:50] SKIP  extC_n6 (completed earlier in this output directory)
+[11:20:50] SKIP  compare_extC_n6 (completed earlier in this output directory)
+[11:20:50] START extC_n10: python3 extC_pinn.py 0 10 16000 /tmp/full/rerun_output/results/ladder_n10.jsonl
+[11:49:22] END   extC_n10 exit=0
+[11:49:22] START compare_extC_n10: python3 compare_rerun.py /tmp/full/rerun_output/results/ladder_n10.jsonl /tmp/full/results/extA/ladder_n10.jsonl 1e-6
+[11:49:22] END   compare_extC_n10 exit=0
+[11:49:22] SKIP  cert_nominal (completed earlier in this output directory)
+[11:49:22] SKIP  compare_cert_nominal (completed earlier in this output directory)
+[11:49:22] SKIP  cert_corner (completed earlier in this output directory)
+[11:49:22] SKIP  compare_cert_corner (completed earlier in this output directory)
+[11:49:22] SKIP  cert_validate (completed earlier in this output directory)
+[11:49:22] SKIP  paper_values_shipped (completed earlier in this output directory)

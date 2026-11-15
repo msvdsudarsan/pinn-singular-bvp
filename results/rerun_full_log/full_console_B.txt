@@ -1,0 +1,55 @@
+WARNING: /tmp/full/rerun_output/results already holds records from an earlier run; existing records are resumed or appended, not overwritten. Use a fresh OUT= for a clean run.
+[07:20:43] SKIP  extA_landscape (completed earlier in this output directory)
+[07:20:43] START grp_0.8,1,1: python3 sens_run.py /tmp/full/rerun_output/results/grp_0.8_1_1.jsonl
+[07:26:15] END   grp_0.8,1,1 exit=0
+[07:26:15] START compare_grp_0.8,1,1: python3 compare_rerun.py /tmp/full/rerun_output/results/grp_0.8_1_1.jsonl /tmp/full/results/group_runs/grp_0.8_1_1.jsonl 1e-6
+[07:26:15] END   compare_grp_0.8,1,1 exit=0
+[07:26:15] START grp_1.2,1,1: python3 sens_run.py /tmp/full/rerun_output/results/grp_1.2_1_1.jsonl
+[07:31:56] END   grp_1.2,1,1 exit=0
+[07:31:56] START compare_grp_1.2,1,1: python3 compare_rerun.py /tmp/full/rerun_output/results/grp_1.2_1_1.jsonl /tmp/full/results/group_runs/grp_1.2_1_1.jsonl 1e-6
+[07:31:56] END   compare_grp_1.2,1,1 exit=0
+[07:31:56] START grp_1,0.8,1: python3 sens_run.py /tmp/full/rerun_output/results/grp_1_0.8_1.jsonl
+[07:37:41] END   grp_1,0.8,1 exit=0
+[07:37:41] START compare_grp_1,0.8,1: python3 compare_rerun.py /tmp/full/rerun_output/results/grp_1_0.8_1.jsonl /tmp/full/results/group_runs/grp_1_0.8_1.jsonl 1e-6
+[07:37:41] END   compare_grp_1,0.8,1 exit=0
+[07:37:41] START grp_1,1.2,1: python3 sens_run.py /tmp/full/rerun_output/results/grp_1_1.2_1.jsonl
+[07:43:12] END   grp_1,1.2,1 exit=0
+[07:43:12] START compare_grp_1,1.2,1: python3 compare_rerun.py /tmp/full/rerun_output/results/grp_1_1.2_1.jsonl /tmp/full/results/group_runs/grp_1_1.2_1.jsonl 1e-6
+[07:43:12] END   compare_grp_1,1.2,1 exit=0
+[07:43:12] START grp_1,1,0.8: python3 sens_run.py /tmp/full/rerun_output/results/grp_1_1_0.8.jsonl
+[07:48:46] END   grp_1,1,0.8 exit=0
+[07:48:46] START compare_grp_1,1,0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/grp_1_1_0.8.jsonl /tmp/full/results/group_runs/grp_1_1_0.8.jsonl 1e-6
+[07:48:46] END   compare_grp_1,1,0.8 exit=0
+[07:48:46] START grp_1,1,1.2: python3 sens_run.py /tmp/full/rerun_output/results/grp_1_1_1.2.jsonl
+[07:54:26] END   grp_1,1,1.2 exit=0
+[07:54:26] START compare_grp_1,1,1.2: python3 compare_rerun.py /tmp/full/rerun_output/results/grp_1_1_1.2.jsonl /tmp/full/results/group_runs/grp_1_1_1.2.jsonl 1e-6
+[07:54:26] END   compare_grp_1,1,1.2 exit=0
+[07:54:26] START rab_0.2: python3 sens_run.py /tmp/full/rerun_output/results/rab_0.2.jsonl
+[08:00:14] END   rab_0.2 exit=0
+[08:00:14] START compare_rab_0.2: python3 compare_rerun.py /tmp/full/rerun_output/results/rab_0.2.jsonl /tmp/full/results/stress_runs/rab_0.2.jsonl 1e-6
+[08:00:14] END   compare_rab_0.2 exit=0
+[08:00:14] START rab_0.1: python3 sens_run.py /tmp/full/rerun_output/results/rab_0.1.jsonl
+[08:06:03] END   rab_0.1 exit=0
+[08:06:03] START compare_rab_0.1: python3 compare_rerun.py /tmp/full/rerun_output/results/rab_0.1.jsonl /tmp/full/results/stress_runs/rab_0.1.jsonl 1e-6
+[08:06:03] END   compare_rab_0.1 exit=0
+[08:06:03] START rab_0.05: python3 sens_run.py /tmp/full/rerun_output/results/rab_0.05.jsonl
+[08:12:00] END   rab_0.05 exit=0
+[08:12:00] START compare_rab_0.05: python3 compare_rerun.py /tmp/full/rerun_output/results/rab_0.05.jsonl /tmp/full/results/stress_runs/rab_0.05.jsonl 1e-6
+[08:12:00] END   compare_rab_0.05 exit=0
+[08:12:00] START T_0.8: python3 sens_run.py /tmp/full/rerun_output/results/T_0.8.jsonl
+[08:17:42] END   T_0.8 exit=0
+[08:17:42] START compare_T_0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/T_0.8.jsonl /tmp/full/results/stress_runs/T_0.8.jsonl 1e-6
+[08:17:43] END   compare_T_0.8 exit=0
+[08:17:43] START T_1.2: python3 sens_run.py /tmp/full/rerun_output/results/T_1.2.jsonl
+[08:23:18] END   T_1.2 exit=0
+[08:23:18] START compare_T_1.2: python3 compare_rerun.py /tmp/full/rerun_output/results/T_1.2.jsonl /tmp/full/results/stress_runs/T_1.2.jsonl 1e-6
+[08:23:18] END   compare_T_1.2 exit=0
+[08:23:18] START corner_0.8,0.8,0.8: python3 sens_corner.py /tmp/full/rerun_output/results/corner_0.8_0.8_0.8.jsonl
+[08:35:53] END   corner_0.8,0.8,0.8 exit=0
+[08:35:53] START compare_corner_0.8,0.8,0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/corner_0.8_0.8_0.8.jsonl /tmp/full/results/stress_runs/corner_0.8_0.8_0.8.jsonl 1e-6
+[08:35:53] END   compare_corner_0.8,0.8,0.8 exit=0
+[08:35:53] START corner_1.2,0.8,0.8: python3 sens_corner.py /tmp/full/rerun_output/results/corner_1.2_0.8_0.8.jsonl
+[08:49:15] END   corner_1.2,0.8,0.8 exit=0
+[08:49:15] START compare_corner_1.2,0.8,0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/corner_1.2_0.8_0.8.jsonl /tmp/full/results/stress_runs/corner_1.2_0.8_0.8.jsonl 1e-6
+[08:49:15] END   compare_corner_1.2,0.8,0.8 exit=0
+[08:49:15] START horizon_0.8: python3 sens_horizon.py /tmp/full/rerun_output/results/horizon_T_0.8.jsonl

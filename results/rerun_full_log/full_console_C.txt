@@ -1,0 +1,145 @@
+WARNING: /tmp/full/rerun_output/results already holds records from an earlier run; existing records are resumed or appended, not overwritten. Use a fresh OUT= for a clean run.
+[09:12:08] SKIP  extA_landscape (completed earlier in this output directory)
+[09:12:08] START horizon_1.5: python3 sens_horizon.py /tmp/full/rerun_output/results/horizon_T_1.5.jsonl
+[09:52:02] END   horizon_1.5 exit=0
+[09:52:02] START compare_horizon_1.5: python3 compare_rerun.py /tmp/full/rerun_output/results/horizon_T_1.5.jsonl /tmp/full/results/results_h/T_1.5.jsonl 1e-6
+[09:52:02] END   compare_horizon_1.5 exit=0
+[09:52:02] START extA_rab1: python3 extA_separation.py 0 10 /tmp/full/rerun_output/results/sep_rab1.jsonl
+[09:55:22] END   extA_rab1 exit=0
+[09:55:22] START compare_extA_rab1: python3 compare_rerun.py /tmp/full/rerun_output/results/sep_rab1.jsonl /tmp/full/results/extA/sep_rab1.jsonl 1e-6
+[09:55:22] END   compare_extA_rab1 exit=0
+[09:55:22] START extA_rab0.5: python3 extA_separation.py 0 10 /tmp/full/rerun_output/results/sep_rab0.5.jsonl
+[09:58:43] END   extA_rab0.5 exit=0
+[09:58:43] START compare_extA_rab0.5: python3 compare_rerun.py /tmp/full/rerun_output/results/sep_rab0.5.jsonl /tmp/full/results/extA/sep_rab0.5.jsonl 1e-6
+[09:58:43] END   compare_extA_rab0.5 exit=0
+[09:58:43] START extA_rab0.2: python3 extA_separation.py 0 10 /tmp/full/rerun_output/results/sep_rab0.2.jsonl
+[10:02:07] END   extA_rab0.2 exit=0
+[10:02:07] START compare_extA_rab0.2: python3 compare_rerun.py /tmp/full/rerun_output/results/sep_rab0.2.jsonl /tmp/full/results/extA/sep_rab0.2.jsonl 1e-6
+[10:02:07] END   compare_extA_rab0.2 exit=0
+[10:02:07] START extA_rab0.05: python3 extA_separation.py 0 10 /tmp/full/rerun_output/results/sep_rab0.05.jsonl
+[10:05:29] END   extA_rab0.05 exit=0
+[10:05:29] START compare_extA_rab0.05: python3 compare_rerun.py /tmp/full/rerun_output/results/sep_rab0.05.jsonl /tmp/full/results/extA/sep_rab0.05.jsonl 1e-6
+[10:05:29] END   compare_extA_rab0.05 exit=0
+[10:05:29] START extB_nominal: python3 extB_adaptive.py 0 10 /tmp/full/rerun_output/results/adapt_nominal.jsonl
+[10:13:09] END   extB_nominal exit=0
+[10:13:09] START compare_extB_nominal: python3 compare_rerun.py /tmp/full/rerun_output/results/adapt_nominal.jsonl /tmp/full/results/extA/adapt_nominal.jsonl 1e-6
+[10:13:09] END   compare_extB_nominal exit=0
+[10:13:09] START extB_rab0.2: python3 extB_adaptive.py 0 10 /tmp/full/rerun_output/results/adapt_rab0.2.jsonl
+[10:20:46] END   extB_rab0.2 exit=0
+[10:20:46] START compare_extB_rab0.2: python3 compare_rerun.py /tmp/full/rerun_output/results/adapt_rab0.2.jsonl /tmp/full/results/extA/adapt_rab0.2.jsonl 1e-6
+[10:20:46] END   compare_extB_rab0.2 exit=0
+[10:20:46] START extB_T14.4: python3 extB_adaptive.py 0 10 /tmp/full/rerun_output/results/adapt_T14.4.jsonl
+[10:28:31] END   extB_T14.4 exit=0
+[10:28:31] START compare_extB_T14.4: python3 compare_rerun.py /tmp/full/rerun_output/results/adapt_T14.4.jsonl /tmp/full/results/extA/adapt_T14.4.jsonl 1e-6
+[10:28:32] END   compare_extB_T14.4 exit=0
+[10:28:32] START extC_n6: python3 extC_pinn.py 0 10 16000 /tmp/full/rerun_output/results/ladder_n6.jsonl
+[10:52:53] END   extC_n6 exit=0
+[10:52:53] START compare_extC_n6: python3 compare_rerun.py /tmp/full/rerun_output/results/ladder_n6.jsonl /tmp/full/results/extA/ladder_n6.jsonl 1e-6
+[10:52:53] END   compare_extC_n6 exit=0
+[10:52:53] START cert_nominal: python3 cert.py /tmp/full/rerun_output/results/cert_nominal.jsonl 0 1 2 3 4
+[10:56:05] END   cert_nominal exit=0
+[10:56:05] START compare_cert_nominal: python3 compare_rerun.py /tmp/full/rerun_output/results/cert_nominal.jsonl /tmp/full/results/cert_nominal.jsonl 1e-6
+[10:56:05] END   compare_cert_nominal exit=0
+[10:56:05] START cert_corner: python3 cert.py /tmp/full/rerun_output/results/cert_corner.jsonl 0 1 2
+[10:58:35] END   cert_corner exit=0
+[10:58:35] START compare_cert_corner: python3 compare_rerun.py /tmp/full/rerun_output/results/cert_corner.jsonl /tmp/full/results/cert_corner.jsonl 1e-6
+[10:58:35] END   compare_cert_corner exit=0
+RESULT: PASS  [FULL]  total 6388s
+proof_verification	0	26
+mna_nominal	0	1
+cert_kd_check	0	88
+extA_landscape	0	1
+orig_examples	0	1391
+compare_orig_examples	0	0
+orig_sweep	0	2193
+compare_orig_sweep	0	0
+orig_ablate	0	2998
+compare_orig_ablate	0	0
+case_1,1,1	0	385
+compare_case_1,1,1	0	0
+case_0.8,1,1	0	233
+compare_case_0.8,1,1	0	0
+grp_0.8,1,1	0	332
+compare_grp_0.8,1,1	0	0
+case_1.2,1,1	0	341
+compare_case_1.2,1,1	0	0
+grp_1.2,1,1	0	341
+compare_grp_1.2,1,1	0	0
+case_1,0.8,1	0	342
+compare_case_1,0.8,1	0	0
+grp_1,0.8,1	0	345
+compare_grp_1,0.8,1	0	0
+case_1,1.2,1	0	337
+compare_case_1,1.2,1	0	0
+grp_1,1.2,1	0	331
+compare_grp_1,1.2,1	0	0
+case_1,1,0.8	0	339
+compare_case_1,1,0.8	0	0
+grp_1,1,0.8	0	334
+compare_grp_1,1,0.8	0	0
+case_1,1,1.2	0	338
+compare_case_1,1,1.2	0	0
+grp_1,1,1.2	0	340
+compare_grp_1,1,1.2	0	0
+case_0.8,0.8,0.8	0	348
+compare_case_0.8,0.8,0.8	0	0
+rab_0.2	0	348
+compare_rab_0.2	0	0
+case_0.8,0.8,1.2	0	343
+compare_case_0.8,0.8,1.2	0	0
+rab_0.1	0	349
+compare_rab_0.1	0	0
+case_0.8,1.2,0.8	0	348
+compare_case_0.8,1.2,0.8	0	0
+rab_0.05	0	357
+compare_rab_0.05	0	0
+case_0.8,1.2,1.2	0	347
+compare_case_0.8,1.2,1.2	0	0
+T_0.8	0	342
+compare_T_0.8	0	1
+case_1.2,0.8,0.8	0	335
+compare_case_1.2,0.8,0.8	0	0
+T_1.2	0	335
+compare_T_1.2	0	0
+case_1.2,0.8,1.2	0	343
+compare_case_1.2,0.8,1.2	0	0
+case_1.2,1.2,0.8	0	333
+compare_case_1.2,1.2,0.8	0	0
+corner_0.8,0.8,0.8	0	755
+compare_corner_0.8,0.8,0.8	0	0
+case_1.2,1.2,1.2	0	342
+compare_case_1.2,1.2,1.2	0	0
+cert_validate	0	18
+paper_values_shipped	0	0
+corner_1.2,0.8,0.8	0	802
+compare_corner_1.2,0.8,0.8	0	0
+horizon_0.8	0	635
+compare_horizon_0.8	0	0
+horizon_1.5	0	2394
+compare_horizon_1.5	0	0
+extA_rab1	0	200
+compare_extA_rab1	0	0
+extA_rab0.5	0	201
+compare_extA_rab0.5	0	0
+extA_rab0.2	0	204
+compare_extA_rab0.2	0	0
+extA_rab0.05	0	202
+compare_extA_rab0.05	0	0
+horizon_1.0	0	2336
+compare_horizon_1.0	0	0
+extB_nominal	0	460
+compare_extB_nominal	0	0
+extB_rab0.2	0	457
+compare_extB_rab0.2	0	0
+extB_T14.4	0	465
+compare_extB_T14.4	0	1
+horizon_1.2	0	2265
+compare_horizon_1.2	0	0
+extC_n6	0	1461
+compare_extC_n6	0	0
+extC_n3	0	380
+compare_extC_n3	0	0
+cert_nominal	0	192
+compare_cert_nominal	0	0
+cert_corner	0	150
+compare_cert_corner	0	0

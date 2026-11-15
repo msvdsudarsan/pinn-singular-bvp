@@ -1,0 +1,139 @@
+WARNING: /tmp/full/rerun_output/results already holds records from an earlier run; existing records are resumed or appended, not overwritten. Use a fresh OUT= for a clean run.
+[07:20:42] SKIP  proof_verification (completed earlier in this output directory)
+[07:20:42] SKIP  mna_nominal (completed earlier in this output directory)
+[07:20:42] SKIP  cert_kd_check (completed earlier in this output directory)
+[07:20:42] SKIP  orig_examples (completed earlier in this output directory)
+[07:20:42] SKIP  compare_orig_examples (completed earlier in this output directory)
+[07:20:42] SKIP  orig_sweep (completed earlier in this output directory)
+[07:20:42] SKIP  compare_orig_sweep (completed earlier in this output directory)
+[07:20:42] SKIP  orig_ablate (completed earlier in this output directory)
+[07:20:42] SKIP  compare_orig_ablate (completed earlier in this output directory)
+[07:20:42] SKIP  case_1,1,1 (completed earlier in this output directory)
+[07:20:42] SKIP  compare_case_1,1,1 (completed earlier in this output directory)
+[07:20:42] START case_0.8,1,1: python3 sens_run.py /tmp/full/rerun_output/results/case_0.8_1_1.jsonl
+[07:24:35] END   case_0.8,1,1 exit=0
+[07:24:35] START compare_case_0.8,1,1: python3 compare_rerun.py /tmp/full/rerun_output/results/case_0.8_1_1.jsonl /tmp/full/results/sensitivity_runs/case_0.8_1_1.jsonl 1e-6
+[07:24:35] END   compare_case_0.8,1,1 exit=0
+[07:24:35] START case_1.2,1,1: python3 sens_run.py /tmp/full/rerun_output/results/case_1.2_1_1.jsonl
+[07:30:16] END   case_1.2,1,1 exit=0
+[07:30:16] START compare_case_1.2,1,1: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1.2_1_1.jsonl /tmp/full/results/sensitivity_runs/case_1.2_1_1.jsonl 1e-6
+[07:30:16] END   compare_case_1.2,1,1 exit=0
+[07:30:16] START case_1,0.8,1: python3 sens_run.py /tmp/full/rerun_output/results/case_1_0.8_1.jsonl
+[07:35:58] END   case_1,0.8,1 exit=0
+[07:35:58] START compare_case_1,0.8,1: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1_0.8_1.jsonl /tmp/full/results/sensitivity_runs/case_1_0.8_1.jsonl 1e-6
+[07:35:58] END   compare_case_1,0.8,1 exit=0
+[07:35:58] START case_1,1.2,1: python3 sens_run.py /tmp/full/rerun_output/results/case_1_1.2_1.jsonl
+[07:41:35] END   case_1,1.2,1 exit=0
+[07:41:35] START compare_case_1,1.2,1: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1_1.2_1.jsonl /tmp/full/results/sensitivity_runs/case_1_1.2_1.jsonl 1e-6
+[07:41:35] END   compare_case_1,1.2,1 exit=0
+[07:41:35] START case_1,1,0.8: python3 sens_run.py /tmp/full/rerun_output/results/case_1_1_0.8.jsonl
+[07:47:14] END   case_1,1,0.8 exit=0
+[07:47:14] START compare_case_1,1,0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1_1_0.8.jsonl /tmp/full/results/sensitivity_runs/case_1_1_0.8.jsonl 1e-6
+[07:47:14] END   compare_case_1,1,0.8 exit=0
+[07:47:14] START case_1,1,1.2: python3 sens_run.py /tmp/full/rerun_output/results/case_1_1_1.2.jsonl
+[07:52:52] END   case_1,1,1.2 exit=0
+[07:52:52] START compare_case_1,1,1.2: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1_1_1.2.jsonl /tmp/full/results/sensitivity_runs/case_1_1_1.2.jsonl 1e-6
+[07:52:52] END   compare_case_1,1,1.2 exit=0
+[07:52:52] START case_0.8,0.8,0.8: python3 sens_run.py /tmp/full/rerun_output/results/case_0.8_0.8_0.8.jsonl
+[07:58:40] END   case_0.8,0.8,0.8 exit=0
+[07:58:40] START compare_case_0.8,0.8,0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/case_0.8_0.8_0.8.jsonl /tmp/full/results/sensitivity_runs/case_0.8_0.8_0.8.jsonl 1e-6
+[07:58:40] END   compare_case_0.8,0.8,0.8 exit=0
+[07:58:40] START case_0.8,0.8,1.2: python3 sens_run.py /tmp/full/rerun_output/results/case_0.8_0.8_1.2.jsonl
+[08:04:23] END   case_0.8,0.8,1.2 exit=0
+[08:04:23] START compare_case_0.8,0.8,1.2: python3 compare_rerun.py /tmp/full/rerun_output/results/case_0.8_0.8_1.2.jsonl /tmp/full/results/sensitivity_runs/case_0.8_0.8_1.2.jsonl 1e-6
+[08:04:23] END   compare_case_0.8,0.8,1.2 exit=0
+[08:04:23] START case_0.8,1.2,0.8: python3 sens_run.py /tmp/full/rerun_output/results/case_0.8_1.2_0.8.jsonl
+[08:10:11] END   case_0.8,1.2,0.8 exit=0
+[08:10:11] START compare_case_0.8,1.2,0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/case_0.8_1.2_0.8.jsonl /tmp/full/results/sensitivity_runs/case_0.8_1.2_0.8.jsonl 1e-6
+[08:10:11] END   compare_case_0.8,1.2,0.8 exit=0
+[08:10:11] START case_0.8,1.2,1.2: python3 sens_run.py /tmp/full/rerun_output/results/case_0.8_1.2_1.2.jsonl
+[08:15:58] END   case_0.8,1.2,1.2 exit=0
+[08:15:58] START compare_case_0.8,1.2,1.2: python3 compare_rerun.py /tmp/full/rerun_output/results/case_0.8_1.2_1.2.jsonl /tmp/full/results/sensitivity_runs/case_0.8_1.2_1.2.jsonl 1e-6
+[08:15:58] END   compare_case_0.8,1.2,1.2 exit=0
+[08:15:58] START case_1.2,0.8,0.8: python3 sens_run.py /tmp/full/rerun_output/results/case_1.2_0.8_0.8.jsonl
+[08:21:33] END   case_1.2,0.8,0.8 exit=0
+[08:21:33] START compare_case_1.2,0.8,0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1.2_0.8_0.8.jsonl /tmp/full/results/sensitivity_runs/case_1.2_0.8_0.8.jsonl 1e-6
+[08:21:33] END   compare_case_1.2,0.8,0.8 exit=0
+[08:21:33] START case_1.2,0.8,1.2: python3 sens_run.py /tmp/full/rerun_output/results/case_1.2_0.8_1.2.jsonl
+[08:27:16] END   case_1.2,0.8,1.2 exit=0
+[08:27:16] START compare_case_1.2,0.8,1.2: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1.2_0.8_1.2.jsonl /tmp/full/results/sensitivity_runs/case_1.2_0.8_1.2.jsonl 1e-6
+[08:27:16] END   compare_case_1.2,0.8,1.2 exit=0
+[08:27:16] START case_1.2,1.2,0.8: python3 sens_run.py /tmp/full/rerun_output/results/case_1.2_1.2_0.8.jsonl
+[08:32:49] END   case_1.2,1.2,0.8 exit=0
+[08:32:49] START compare_case_1.2,1.2,0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1.2_1.2_0.8.jsonl /tmp/full/results/sensitivity_runs/case_1.2_1.2_0.8.jsonl 1e-6
+[08:32:49] END   compare_case_1.2,1.2,0.8 exit=0
+[08:32:49] START case_1.2,1.2,1.2: python3 sens_run.py /tmp/full/rerun_output/results/case_1.2_1.2_1.2.jsonl
+[08:38:31] END   case_1.2,1.2,1.2 exit=0
+[08:38:31] START compare_case_1.2,1.2,1.2: python3 compare_rerun.py /tmp/full/rerun_output/results/case_1.2_1.2_1.2.jsonl /tmp/full/results/sensitivity_runs/case_1.2_1.2_1.2.jsonl 1e-6
+[08:38:31] END   compare_case_1.2,1.2,1.2 exit=0
+[08:38:31] START cert_validate: python3 cert_validate.py
+[08:38:49] END   cert_validate exit=0
+[08:38:49] START paper_values_shipped: python3 check_paper_values.py /tmp/full/results
+[08:38:49] END   paper_values_shipped exit=0
+RESULT: PASS  [FULL]  total 4688s
+proof_verification	0	26
+mna_nominal	0	1
+cert_kd_check	0	88
+extA_landscape	0	1
+orig_examples	0	1391
+compare_orig_examples	0	0
+orig_sweep	0	2193
+compare_orig_sweep	0	0
+orig_ablate	0	2998
+compare_orig_ablate	0	0
+case_1,1,1	0	385
+compare_case_1,1,1	0	0
+case_0.8,1,1	0	233
+compare_case_0.8,1,1	0	0
+grp_0.8,1,1	0	332
+compare_grp_0.8,1,1	0	0
+case_1.2,1,1	0	341
+compare_case_1.2,1,1	0	0
+grp_1.2,1,1	0	341
+compare_grp_1.2,1,1	0	0
+case_1,0.8,1	0	342
+compare_case_1,0.8,1	0	0
+grp_1,0.8,1	0	345
+compare_grp_1,0.8,1	0	0
+case_1,1.2,1	0	337
+compare_case_1,1.2,1	0	0
+grp_1,1.2,1	0	331
+compare_grp_1,1.2,1	0	0
+case_1,1,0.8	0	339
+compare_case_1,1,0.8	0	0
+grp_1,1,0.8	0	334
+compare_grp_1,1,0.8	0	0
+case_1,1,1.2	0	338
+compare_case_1,1,1.2	0	0
+grp_1,1,1.2	0	340
+compare_grp_1,1,1.2	0	0
+case_0.8,0.8,0.8	0	348
+compare_case_0.8,0.8,0.8	0	0
+rab_0.2	0	348
+compare_rab_0.2	0	0
+case_0.8,0.8,1.2	0	343
+compare_case_0.8,0.8,1.2	0	0
+rab_0.1	0	349
+compare_rab_0.1	0	0
+case_0.8,1.2,0.8	0	348
+compare_case_0.8,1.2,0.8	0	0
+rab_0.05	0	357
+compare_rab_0.05	0	0
+case_0.8,1.2,1.2	0	347
+compare_case_0.8,1.2,1.2	0	0
+T_0.8	0	342
+compare_T_0.8	0	1
+case_1.2,0.8,0.8	0	335
+compare_case_1.2,0.8,0.8	0	0
+T_1.2	0	335
+compare_T_1.2	0	0
+case_1.2,0.8,1.2	0	343
+compare_case_1.2,0.8,1.2	0	0
+case_1.2,1.2,0.8	0	333
+compare_case_1.2,1.2,0.8	0	0
+corner_0.8,0.8,0.8	0	755
+compare_corner_0.8,0.8,0.8	0	0
+case_1.2,1.2,1.2	0	342
+compare_case_1.2,1.2,1.2	0	0
+cert_validate	0	18
+paper_values_shipped	0	0

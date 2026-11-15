@@ -1,0 +1,18 @@
+WARNING: /tmp/full/rerun_output/results already holds records from an earlier run; existing records are resumed or appended, not overwritten. Use a fresh OUT= for a clean run.
+[09:20:47] START horizon_0.8: python3 sens_horizon.py /tmp/full/rerun_output/results/horizon_T_0.8.jsonl
+[09:31:22] END   horizon_0.8 exit=0
+[09:31:22] START compare_horizon_0.8: python3 compare_rerun.py /tmp/full/rerun_output/results/horizon_T_0.8.jsonl /tmp/full/results/results_h/T_0.8.jsonl 1e-6
+[09:31:22] END   compare_horizon_0.8 exit=0
+[09:31:22] START horizon_1.0: python3 sens_horizon.py /tmp/full/rerun_output/results/horizon_T_1.0.jsonl
+[10:10:18] END   horizon_1.0 exit=0
+[10:10:18] START compare_horizon_1.0: python3 compare_rerun.py /tmp/full/rerun_output/results/horizon_T_1.0.jsonl /tmp/full/results/results_h/T_1.0.jsonl 1e-6
+[10:10:18] END   compare_horizon_1.0 exit=0
+[10:10:18] START horizon_1.2: python3 sens_horizon.py /tmp/full/rerun_output/results/horizon_T_1.2.jsonl
+[10:48:03] END   horizon_1.2 exit=0
+[10:48:03] START compare_horizon_1.2: python3 compare_rerun.py /tmp/full/rerun_output/results/horizon_T_1.2.jsonl /tmp/full/results/results_h/T_1.2.jsonl 1e-6
+[10:48:03] END   compare_horizon_1.2 exit=0
+[10:48:03] START extC_n3: python3 extC_pinn.py 0 10 4000 /tmp/full/rerun_output/results/ladder_n3.jsonl
+[10:54:23] END   extC_n3 exit=0
+[10:54:23] START compare_extC_n3: python3 compare_rerun.py /tmp/full/rerun_output/results/ladder_n3.jsonl /tmp/full/results/extA/ladder_n3.jsonl 1e-6
+[10:54:23] END   compare_extC_n3 exit=0
+[10:54:23] START extC_n10: python3 extC_pinn.py 0 10 16000 /tmp/full/rerun_output/results/ladder_n10.jsonl

@@ -1,0 +1,118 @@
+PASS  [symbolic identity] V1 det(sD-A)=det(-A22)det(sI-Ared)  (r=1, n-r=1) symbolic
+PASS  [symbolic identity] V1 det(sD-A)=det(-A22)det(sI-Ared)  (r=2, n-r=1) symbolic
+PASS  [symbolic identity] V1 det(sD-A)=det(-A22)det(sI-Ared)  (r=1, n-r=2) symbolic
+PASS  [symbolic identity] V1 det(sD-A)=det(-A22)det(sI-Ared)  (r=2, n-r=2) symbolic
+PASS  [numerical identity] V2 det(U^T A V) scales by det(S)det(T): invertibility is basis-free
+PASS  [symbolic counterexample] V3 regular pencil but NOT index 1:  det(sE-A) = 1, U^T A V = 0
+   seed 0: skipped (cond(M)=3.0e+17, ill-conditioned test system)
+   seed 1: dim ker K(coll)=3 (r=3); rank M theory/colloc=3/3; defect theory=0.63708724 colloc=0.63708724
+   seed 2: dim ker K(coll)=3 (r=3); rank M theory/colloc=3/3; defect theory=0.91795266 colloc=0.91795266
+   seed 3: dim ker K(coll)=3 (r=3); rank M theory/colloc=3/3; defect theory=4.24918490 colloc=4.24918490
+   seed 4: dim ker K(coll)=3 (r=3); rank M theory/colloc=3/3; defect theory=0.46092010 colloc=0.46092010
+   seed 5: dim ker K(coll)=3 (r=3); rank M theory/colloc=3/3; defect theory=3.52936253 colloc=3.52936253
+PASS  [independent numerical (collocation)] V4 Theorem 2: rank M, kernel dimension r, compatibility defect agree with independent Chebyshev collocation of the full descriptor system
+PASS  [independent numerical (collocation)] V4c homogeneous BVP solution-space dimension = r - rank M  | theory 1, colloc 1
+
+   Example  col | A22  A_red | rank M | M^T = (BC sensitivities to alpha) | compat. defect of rounded W | alpha_LS | max |W - W*(alpha_LS)|
+   Ex1     1  | 4  -0.50 | 1      | [-0.213061 -1.204898] | 5.867e-04 (rows [-0.000578  0.000102]) | -4.199906 | 5.78e-04
+   Ex1     2  | 4  -0.50 | 1      | [-0.213061 -1.204898] | 1.841e-06 (rows [ 0.000002 -0.      ]) | -7.333368 | 1.81e-06
+   Ex3     1  | 1  -1.00 | 1      | [ 0.632121 -1.367879] | 2.079e-05 (rows [-0.000019 -0.000009]) | -0.499995 | 1.89e-05
+   Ex3     2  | 1  -1.00 | 1      | [ 0.632121 -1.367879] | 5.430e-05 (rows [0.000049 0.000023]) | +0.499987 | 4.93e-05
+   Ex4     1  | 2  +0.00 | 1      | [ 0. -2.] | 2.902e-05 (rows [-0.000029  0.      ]) | +0.000015 | 2.90e-05
+   Ex4     2  | 2  +0.00 | 1      | [ 0. -2.] | 0.000e+00 (rows [0. 0.]) | +0.000000 | 0.00e+00
+PASS  [high-precision evaluation] V5 Examples 1,3,4: computed rank M = 1 (= r) in every column, k = 2 rows -> exactly one compatibility condition per column
+PASS  [high-precision evaluation] V5 Example 4: computed M = (0, -2): row 1 has zero sensitivity to alpha (pure data-consistency condition)
+      Example 4 exact consistent data: W* = [[-sin 1, -1/2],[-sin 1,-1/2]] = [[-0.8414709848078965, -0.5], [-0.8414709848078965, -0.5]]  vs given [[-0.8415,-0.5],[-0.8415,-0.5]]  (diff col1 = -2.90e-05)
+
+PASS  [independent numerical / symbolic] V6 Example 2 col 1: x2(0)=-f2(0)=-1; x1(0)=f2(0)-f1(0)-f2'(0)=-1 equals numerical limit  | x1(1e-8)=-1.00000006
+PASS  [independent numerical / symbolic] V6 Example 2 col 1: lim t*x1(t) = -(x2(0)+f2(0)) when x2(0)!=-f2(0) (x1 ~ 1/t)  | -0.100001 (expected -0.1)
+PASS  [independent numerical / symbolic] V6 Example 2 col 2: x2(0)=-f2(0)=-1; x1(0)=f2(0)-f1(0)-f2'(0)=+1 equals numerical limit  | x1(1e-8)=+0.99999997
+PASS  [independent numerical / symbolic] V6 Example 2 col 2: lim t*x1(t) = -(x2(0)+f2(0)) when x2(0)!=-f2(0) (x1 ~ 1/t)  | -0.099999 (expected -0.1)
+      Example 2 col 1: W - W* = [-0.000037 -0.000043], norm 5.71e-05
+      Example 2 col 2: W - W* = [-0.000025  0.000014], norm 2.83e-05
+PASS  [independent numerical / symbolic] V6 x1'(0) for col 1 equals symbolic formula -p1/2-9q0/2+q1/2-q2/2 = -11/2  | numeric -5.500004
+      Example 2: W*(bounded solution) =
+ [[ 39.632637   7.613025]
+ [-10.804657  -4.230814]] 
+      given W =
+ [[ 39.6326   7.613 ]
+ [-10.8047  -4.2308]] 
+      |W - W*| = 4.332453383604218e-05
+PASS  [independent numerical / symbolic] V6 symbolic: x1(0) = q0... i.e. f2(0)-f1(0)-f2'(0)  | x1(0)=-p0 + q0 - q1
+      symbolic: x2(t) =  -q0 + t**2*(p1/2 - q1/2) + t*(p0 - q0) 
+      symbolic: x1'(0) = -p1/2 - 9*q0/2 + q1/2 - q2/2
+PASS  [numerical identity] V7 B H = I_k (right inverse exists iff rank B = k)
+PASS  [numerical identity] V7 hard-BC map gives L0 x(0)+L1 x(1) = w for an arbitrary N
+PASS  [numerical identity] V7 projection property: x_N = N whenever N already satisfies the BC
+PASS  [numerical identity] V7 paper formula (L0=I): X=N+(1-t)[W-N(0)-L1 N(1)] satisfies BC; H0=I,H1=0
+PASS  [numerical identity] V7 duplicated BC row: rank B < k -> no right inverse (construction cannot exist; data must be consistent)
+PASS  [numerical identity] V8 Proposition 3 identity: x BC-feasible & residual r  =>  (I-MM^+) b(f+r) = 0 ; hence defect(f) = |(I-MM^+)(L0 xp[r](0)+L1 xp[r](1))|  | |P b(f+r)|=1.15e-12; |P b(f)|=0.0536
+
+   Theorem 5 check (Examples 1,3,4, arbitrary perturbation eta): |e|_inf <= C_beta|beta| + C_rho |r|_inf
+      Ex1 eps=0.1: |e|_inf=1.463e-01 <= bound=6.469e+00  (ratio 44.2)
+      Ex1 eps=0.001: |e|_inf=1.463e-03 <= bound=6.469e-02  (ratio 44.2)
+      Ex3 eps=0.1: |e|_inf=1.463e-01 <= bound=3.719e+00  (ratio 25.4)
+      Ex3 eps=0.001: |e|_inf=1.463e-03 <= bound=3.719e-02  (ratio 25.4)
+      Ex4 eps=0.1: |e|_inf=1.463e-01 <= bound=2.810e+00  (ratio 19.2)
+      Ex4 eps=0.001: |e|_inf=1.463e-03 <= bound=2.810e-02  (ratio 19.2)
+PASS  [sampled sanity check] V9a a-posteriori bound holds on Examples 1,3,4 (constants from analytic formulas, floating point)
+      random system seed 0: SKIPPED (cond(M)=1.1e+17 > 1e5, ill-conditioned test system)
+      random system seed 1: |e|_inf=4.657e-02 <= bound=5.437e+03
+      random system seed 2: |e|_inf=4.657e-02 <= bound=1.138e+08
+      random system seed 3: |e|_inf=4.657e-02 <= bound=3.500e+08
+      random system seed 4: |e|_inf=4.657e-02 <= bound=7.259e+03
+      random system seed 5: |e|_inf=4.657e-02 <= bound=2.105e+03
+PASS  [sampled sanity check] V9a bound holds on random index-1 systems with GRID-ESTIMATED constants (NOT certified: finite-grid maxima are not guaranteed upper bounds)
+
+   Certified constants (interval arithmetic; upper endpoints, rounded UPWARD):  (ex, C_beta, C_rho)
+      Ex1:  C_beta <= 1.0216 (endpoint 1.021583408),  C_rho <= 11.69 (endpoint 11.686156893)
+      Ex3:  C_beta <= 0.9386 (endpoint 0.938507900),  C_rho <= 14.39 (endpoint 14.385078998)
+      Ex4:  C_beta <= 0.7072 (endpoint 0.707106781),  C_rho <= 8.45 (endpoint 8.449747468)
+PASS  [sampled sanity check (constants certified; comparison on a finite grid)] V9b Theorem 5 with interval-certified constants on Examples 1,3,4, compared with test functions whose suprema are taken on a finite grid (sampled sanity check, NOT a continuous-domain certification)
+
+      -- benign (P=Q=I, mild coefficients)
+      seed 0: |e|_inf=4.66e-02 <= analytic bound=2.49e+03   (|A_red|<=2.93, gamma<=1.87e+01, a22<=0.625)
+      seed 1: |e|_inf=4.66e-02 <= analytic bound=1.12e+02   (|A_red|<=1.78, gamma<=5.91e+00, a22<=0.625)
+      seed 2: |e|_inf=4.66e-02 <= analytic bound=8.61e+03   (|A_red|<=3.62, gamma<=3.75e+01, a22<=0.625)
+      seed 3: |e|_inf=4.66e-02 <= analytic bound=2.06e+04   (|A_red|<=3.96, gamma<=5.27e+01, a22<=0.625)
+      seed 4: |e|_inf=4.66e-02 <= analytic bound=5.77e+03   (|A_red|<=3.45, gamma<=3.16e+01, a22<=0.625)
+      skipped (ill-conditioned M, cond>1e5): none
+PASS  [sampled sanity check (analytic inequality, floating-point evaluation)] V9c Theorem 5 with the analytic inequalities of Lemma 2 evaluated in double precision (NumPy norms/exp: rigorous inequality, NOT interval-certified numbers) on benign (P=Q=I, mild coefficients) systems; ||M^+|| from a numerical solve
+      -- wild (random invertible P,Q, large coefficients)
+      seed 1: |e|_inf=4.66e-02 <= analytic bound=6.45e+88   (|A_red|<=97.15, gamma<=1.56e+42, a22<=0.625)
+      seed 2: |e|_inf=4.66e-02 <= analytic bound=4.95e+41   (|A_red|<=42.71, gamma<=3.55e+18, a22<=0.625)
+      seed 3: |e|_inf=4.66e-02 <= analytic bound=5.79e+242   (|A_red|<=272.14, gamma<=1.54e+118, a22<=0.625)
+      seed 4: |e|_inf=4.66e-02 <= analytic bound=3.42e+172   (|A_red|<=192.93, gamma<=6.12e+83, a22<=0.625)
+      seed 5: |e|_inf=4.66e-02 <= analytic bound=1.20e+57   (|A_red|<=61.39, gamma<=4.60e+26, a22<=0.625)
+      skipped (ill-conditioned M, cond>1e5): [(0, 1.0664793993680842e+17)]
+PASS  [sampled sanity check (analytic inequality, floating-point evaluation)] V9c Theorem 5 with the analytic inequalities of Lemma 2 evaluated in double precision (NumPy norms/exp: rigorous inequality, NOT interval-certified numbers) on wild (random invertible P,Q, large coefficients) systems; ||M^+|| from a numerical solve
+   LaTeX source read: /home/claude/ms/supplement.tex  sha256=65ff98c32fedfb4c
+PASS  [source/script consistency] V9d displayed certified constants in the .tex are >= the interval upper endpoints (outward rounding)  | [('1', '1.0216', '11.69'), ('3', '0.9386', '14.39'), ('4', '0.7072', '8.45')]
+PASS  [source/script consistency] V9d C_e = ||Q|| [ gamma(1+a12)(1+a22 a21) + a22 ] : expression parsed from proof_package.tex equals the one used in the script  | tex: \gamma(1+a_{12})(1+a_{22}a_{21})+a_{22}
+
+PASS  [numerical rank computation] V10 Example 1: k=2, r=1, rank M=1 -> k - rank M = 1 compatibility condition per column
+PASS  [numerical rank computation] V10 Example 3: k=2, r=1, rank M=1 -> k - rank M = 1 compatibility condition per column
+PASS  [numerical rank computation] V10 Example 4: k=2, r=1, rank M=1 -> k - rank M = 1 compatibility condition per column
+PASS  [bookkeeping (restates Theorem 3(d); not an independent check)] V10 Example 2: bounded solutions have r - 1 = 0 free parameters, so BOTH boundary rows (k - 0 = 2) are compatibility conditions
+
+PASS  [independent symbolic / numerical] V11 Example 2 column 1: series solution gives x2'(0), x2''(0), x1(0), x1'(0) = -1, -2, -1, -11/2 ; theorem formulas give -1, -2, -1, -11/2
+PASS  [independent symbolic / numerical] V11 Example 2 column 1: numerical slope of x1 near 0 = -5.50000 vs x1'(0) = -5.50000
+PASS  [independent symbolic / numerical] V11 Example 2 column 2: series solution gives x2'(0), x2''(0), x1(0), x1'(0) = -1, 0, 1, -5/2 ; theorem formulas give -1, 0, 1, -5/2
+PASS  [independent symbolic / numerical] V11 Example 2 column 2: numerical slope of x1 near 0 = -2.50000 vs x1'(0) = -2.50000
+PASS  [independent symbolic / numerical] V11 sharpness: f2 in C^1 \ C^2 => x1' ~ A + B t^(-1/2) with B = -1/2 (unbounded); two independent fits agree  | slopes -9.676, -20.856, -56.259; B fits -0.517, -0.518
+
+SUMMARY: 38 checks, 38 passed, 0 failed
+Kinds of check (not every check is an independent proof validation):
+     7  numerical identity
+     6  independent numerical / symbolic
+     5  independent symbolic / numerical
+     4  symbolic identity
+     3  numerical rank computation
+     2  independent numerical (collocation)
+     2  high-precision evaluation
+     2  sampled sanity check
+     2  sampled sanity check (analytic inequality, floating-point evaluation)
+     2  source/script consistency
+     1  symbolic counterexample
+     1  sampled sanity check (constants certified; comparison on a finite grid)
+     1  bookkeeping (restates Theorem 3(d); not an independent check)

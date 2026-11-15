@@ -1,0 +1,6 @@
+K_lb (direct dense estimate of sup_t[I1+I2])  = 0.06544701371624406
+K_d exponential-cell bound                    = 0.08325193471808522 (np.float64(0.0601651528700686), np.float64(0.02308678184801662))
+K_d derivative (Lipschitz) bound              = 0.09672199200043645 (np.float64(0.0736694568652614), np.float64(0.023052535135175047))
+lower estimate below both upper bounds: True
+cell inequality, exponential form: max of ||P(t2,s2)|| / (||P(t,s)|| e^{m(|dt|+|ds|)}) over 400 random pairs = 0.9984741074888331 (<=1 expected)
+cell inequality, Lipschitz form: max of (||P(t2,s2)||-||P(t,s)||)/(bound) = 0.011935455887963171 (<=1 expected)
